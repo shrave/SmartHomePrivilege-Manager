@@ -21,18 +21,18 @@ class device(object):
 			groups = []
 			for k in d.keys():
 				if 'primary' in d[k]:
-					groups = [1]
+					groups = [1,7]
 				elif 'secondary' in d[k]:
-					groups = [1,2]
+					groups = [1,2,7]
 				elif 'private' in d[k]:
 					if 'sensitive' in d[k]:
-						groups = [1,2,3]
+						groups = [1,2,3,7]
 					else:
-						groups = [1,2,3,5] 
+						groups = [1,2,3,5,7] 
 				elif 'sensitive' in d[k]:
-					groups = [1,2,3,4]
+					groups = [1,2,3,4,7]
 				else:
-					groups = [1,2,3,4,5,6]
+					groups = [1,2,3,4,5,6,7]
 				user_groups[k] = groups
 				groups = []
 			self.user_groups = user_groups				
