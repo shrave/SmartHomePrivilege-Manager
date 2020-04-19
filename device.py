@@ -1,12 +1,14 @@
 #Master device class for a device. Not the instances of different devices.
 class device(object):
-	def __init__(self, name, acronym)
+	def __init__(self, name, acronym, privileges):
 		self.name = name
 		self.acronym = acronym
 		self.user_privilege = {}
 		self.privilege_type = {}
 		self.user_groups = {}
-#Privileges are a dictionary of privileges and tags associated to list.
+		self.privileges = privileges
+#privileges is a list of privileges.
+#user_privileges are a dictionary of privileges and tags associated to list.
 	# "Un/lock smart lock":'private','sensitive', 'secondary','primary' - d dictionary
 		def store_privileges(self, d, k):
 			self.user_privilege = d

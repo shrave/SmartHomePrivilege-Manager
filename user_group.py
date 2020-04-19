@@ -1,6 +1,6 @@
-from .device import device
-from .devices import devices
-from .user_group_body import user_group_body
+from device import device
+from devices import devices
+from user_group_body import user_group_body
 
 #The class which is an instance of a particular user group over a particular device.
 

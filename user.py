@@ -1,4 +1,4 @@
-from .user_group import user_group
+from user_group import user_group
 
 #Class of a real user/person in the house.
 class user(object):
