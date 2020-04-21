@@ -10,34 +10,38 @@ class device(object):
 #privileges is a list of privileges.
 #user_privileges are a dictionary of privileges and tags associated to list.
 	# "Un/lock smart lock":'private','sensitive', 'secondary','primary' - d dictionary
-		def store_privileges(self, d, k):
+	def store_privileges(self, d, tag):
+		if tag =='user':
 			self.user_privilege = d
-			self.privilege_type = k
+		if tag == 'function':
+			self.privilege_type = d
 	# "Un/lock smart lock": "entry-exit" -> k dictionary
-		def user_group_assignment(self):
+	def user_group_assignment(self):
 	#Assigning a privilege group to corresponding user members.
-			d = self.user_privilege
+		d = self.user_privilege
 			#d is a copied variable.
-			user_groups = {}
+		user_groups = {}
 			#user_groups is a temporary dictionary to be copied to self.user_groups
-			groups = []
-			for k in d.keys():
-				if 'primary' in d[k]:
-					groups = [1,7]
-				elif 'secondary' in d[k]:
-					groups = [1,2,7]
-				elif 'private' in d[k]:
-					if 'sensitive' in d[k]:
-						groups = [1,2,3,7]
-					else:
-						groups = [1,2,3,5,7] 
-				elif 'sensitive' in d[k]:
-					groups = [1,2,3,4,7]
+		groups = []
+		for k in d.keys():
+			if 'primary' in d[k]:
+				groups = [1,7]
+			elif 'secondary' in d[k]:
+				groups = [1,2,7]
+			elif 'private' in d[k]:
+				if 'sensitive' in d[k]:
+					groups = [1,2,3,7]
+				elif 'non-sensitive' in d[k]:
+					groups = [1,2,3,4,5,7]
 				else:
-					groups = [1,2,3,4,5,6,7]
-				user_groups[k] = groups
-				groups = []
-			self.user_groups = user_groups				
+					groups = [1,2,3,5,7] 
+			elif 'sensitive' in d[k]:
+				groups = [1,2,3,4,7]
+			else:
+				groups = [1,2,3,4,5,6,7]
+			user_groups[k] = groups
+			groups = []
+		self.user_groups = user_groups				
 				
 				
 
