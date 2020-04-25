@@ -7,10 +7,10 @@ class user(object):
 		self.password = ''
 		self.Name = Name
 	#Computing the list of all capable privileges for all the device relationships.
-	def capable_privilges(self):
+	def capable_privileges(self):
 		user_privileges = []
 		for k in self.list_classes:
-			user_privileges.append({k.label:k.privileges})
+			user_privileges.append({k.device.label:k.privileges})
 		self.user_privileges = user_privileges
 
 	def register(self, username, password):

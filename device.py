@@ -22,6 +22,7 @@ class device(object):
 			#d is a copied variable.
 		user_groups = {}
 			#user_groups is a temporary dictionary to be copied to self.user_groups
+			#having privileges and their corresponding groups allowed to perform it.
 		groups = []
 		for k in d.keys():
 			if 'primary' in d[k]:
