@@ -75,6 +75,10 @@ for k in users:
 			print(m)
 			print(l[m])
 
-#Vary people in the setup and their relationships with the devices. 
+#Assign privileges to each task.
+#Check exclusivity of tasks.
+#Removal of insider threats.
 #identify the threats in all cases.
 #See how you can identify threats or indicators of threats. 
+#System user marks a pattern of malicious actor-> parameters noted.
+#System can check if there is a match between system user and current user-> check anamoly.

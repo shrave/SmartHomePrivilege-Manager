@@ -20,6 +20,5 @@ class user(object):
 	def set_devices_user_groups(self, list_classes):
 		self.list_classes = list_classes
 	#list_classes -> the instances of user_groups instances.
-#Decide whether this code is okay or not, also how animated must it be?
 
 #def request_task
