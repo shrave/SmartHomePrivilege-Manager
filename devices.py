@@ -1,10 +1,6 @@
 from device import device
 
 class devices(device):
-	# @classmethod
-	# def from_parent(cls, parent):
-	# 	return cls(parent.name,parent.acronym,parent.privileges)
-
 	def __init__(self, *args):
 		if type(args[0]) is device:
 			self.__dict__ = args[0].__dict__.copy()
@@ -12,9 +8,14 @@ class devices(device):
 			label = args[2]
 			self.location = location
 			self.label = label
+			self.time_slots = {}
+			#A dictionary consisting of time slots and user instances with these time slots.->time_slots
 		else:
 			super(device, self).__init__(*args[:4])
 			location = args[3]
 			label = args[4]
 			self.location = location
 			self.label = label
+			self.time_slots = {}
+	def set_time_slots(self, slots):
+		self.time_slots = slots

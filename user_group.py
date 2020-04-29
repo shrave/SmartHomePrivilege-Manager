@@ -35,7 +35,4 @@ class user_group(object):
 		for k in d.keys():
 			if self.code in d[k]:
 				selected_privileges.append(k)
-		# m = self.privilege_type
-		# self.privilege_type = dict((k, m[k]) for k in selected_privileges 
-  #                                       if k in m)
 		self.privileges = selected_privileges
