@@ -20,5 +20,6 @@ class user(object):
 	def set_devices_user_groups(self, list_classes):
 		self.list_classes = list_classes
 	#list_classes -> the instances of user_groups instances.
-
+#Task Dictionary:
+#{Task: [List of privileges]}
 #def request_task

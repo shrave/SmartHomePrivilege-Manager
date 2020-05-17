@@ -1,0 +1,165 @@
+Contact and flame sensors
+null<{('Power ON/OFF', '1S'), ('Change settings', '1S')}<{('Power ON/OFF', '1S'), ('Change settings', '1S'), ('Adjust sensitivity', '1S')}<{('Power ON/OFF', '1S'), ('Change settings', '1S'), ('View history', '1S'), ('Adjust sensitivity', '1S')}<{('Power ON/OFF', '1S'), ('Change settings', '1S'), ('View history', '1S'), ('Adjust sensitivity', '1S')}<{('Power ON/OFF', '1S'), ('Change settings', '1S'), ('View history', '1S'), ('Adjust sensitivity', '1S')}<
+
+null<null<{('Adjust sensitivity', '1S')}<{('View history', '1S'), ('Adjust sensitivity', '1S')}<{('View history', '1S'), ('Adjust sensitivity', '1S')}<{('View history', '1S'), ('Adjust sensitivity', '1S')}<
+
+null<null<null<{('View history', '1S')}<{('View history', '1S')}<{('View history', '1S')}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+
+Smart Plug/Socket
+null<{('Change settings', '2S')}<{('Switch ON/OFF ', '1S'), ('Add/modify scenes or schedules', '2S'), ('Change settings', '2S')}<{('Change settings', '2S'), ('Add/modify scenes or schedules', '2S'), ('Start a schedule', '1S'), ('Switch ON/OFF ', '1S')}<{('Change settings', '2S'), ('Add/modify scenes or schedules', '2S'), ('Start a schedule', '1S'), ('Switch ON/OFF ', '1S')}<{('Change settings', '2S'), ('Add/modify scenes or schedules', '2S'), ('Start a schedule', '1S'), ('Switch ON/OFF ', '1S')}<
+
+null<null<{('Add/modify scenes or schedules', '2S'), ('Switch ON/OFF ', '1S')}<{('Switch ON/OFF ', '1S'), ('Add/modify scenes or schedules', '2S'), ('Start a schedule', '1S')}<{('Switch ON/OFF ', '1S'), ('Add/modify scenes or schedules', '2S'), ('Start a schedule', '1S')}<{('Switch ON/OFF ', '1S'), ('Add/modify scenes or schedules', '2S'), ('Start a schedule', '1S')}<
+
+null<null<null<{('Start a schedule', '1S')}<{('Start a schedule', '1S')}<{('Start a schedule', '1S')}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+
+Thermostat
+null<{('create/modify settings', '2S'), ('Power ON/OFF', '2S')}<{('create/modify settings', '2S'), ('Add/change schedule', '2S'), ('Power ON/OFF', '2S')}<{('create/modify settings', '2S'), ('Add/change schedule', '2S'), ('Start a schedule', '1S'), ('Power ON/OFF', '2S')}<{('create/modify settings', '2S'), ('Add/change schedule', '2S'), ('Start a schedule', '1S'), ('Power ON/OFF', '2S')}<{('create/modify settings', '2S'), ('Add/change schedule', '2S'), ('Start a schedule', '1S'), ('Power ON/OFF', '2S')}<
+
+null<null<{('Add/change schedule', '2S')}<{('Add/change schedule', '2S'), ('Start a schedule', '1S')}<{('Add/change schedule', '2S'), ('Start a schedule', '1S')}<{('Add/change schedule', '2S'), ('Start a schedule', '1S')}<
+
+null<null<null<{('Start a schedule', '1S')}<{('Start a schedule', '1S')}<{('Start a schedule', '1S')}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+
+Smart shower
+null<{('Add new equipment', '1S'), ('Add/modify users', '2S')}<{('change settings', '1S'), ('Add new equipment', '1S'), ('Add/modify users', '2S')}<{('change settings', '1S'), ('Add new equipment', '1S'), ('View usage history', '1P'), ('Add/modify users', '2S')}<{('change settings', '1S'), ('Add new equipment', '1S'), ('Change parameters', '1S'), ('View usage history', '1P'), ('Add/modify users', '2S')}<{('change settings', '1S'), ('Add new equipment', '1S'), ('Change parameters', '1S'), ('View usage history', '1P'), ('Add/modify users', '2S')}<
+
+null<null<{('change settings', '1S')}<{('change settings', '1S'), ('View usage history', '1P')}<{('change settings', '1S'), ('Change parameters', '1S'), ('View usage history', '1P')}<{('change settings', '1S'), ('Change parameters', '1S'), ('View usage history', '1P')}<
+
+null<null<null<{('View usage history', '1P')}<{('Change parameters', '1S'), ('View usage history', '1P')}<{('Change parameters', '1S'), ('View usage history', '1P')}<
+
+null<null<null<null<{('Change parameters', '1S')}<{('Change parameters', '1S')}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+
+Smart Oven
+null<{('Power ON/OFF', '3S')}<{('View current parameters of the oven', '1S'), ('Modify preferences', '2S'), ('Power ON/OFF', '3S'), ('create/modify timers', '2S')}<{('View current parameters of the oven', '1S'), ('View preferences', '2P'), ('Modify preferences', '2S'), ('Power ON/OFF', '3S'), ('create/modify timers', '2S')}<{('View current parameters of the oven', '1S'), ('View preferences', '2P'), ('Modify preferences', '2S'), ('Power ON/OFF', '3S'), ('create/modify timers', '2S')}<{('View current parameters of the oven', '1S'), ('View preferences', '2P'), ('Modify preferences', '2S'), ('Power ON/OFF', '3S'), ('create/modify timers', '2S')}<
+
+null<null<{('View current parameters of the oven', '1S'), ('Modify preferences', '2S'), ('create/modify timers', '2S')}<{('View current parameters of the oven', '1S'), ('View preferences', '2P'), ('Modify preferences', '2S'), ('create/modify timers', '2S')}<{('View current parameters of the oven', '1S'), ('View preferences', '2P'), ('Modify preferences', '2S'), ('create/modify timers', '2S')}<{('View current parameters of the oven', '1S'), ('View preferences', '2P'), ('Modify preferences', '2S'), ('create/modify timers', '2S')}<
+
+null<null<null<{('View preferences', '2P')}<{('View preferences', '2P')}<{('View preferences', '2P')}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+
+Smart security system
+null<{('Dis/arm system', '1S'), ('Change settings', '1S')}<{('Dis/arm system', '1S'), ('Add preferences', '1S'), ('Change settings', '1S'), ('UN/lock smart lock', '1S')}<{('Add preferences', '1S'), ('Change settings', '1S'), ('View preferences', '1S1P'), ('Dis/arm system', '1S'), ('View past footage', '1S1P'), ('Monitor current parameters', '1S'), ('UN/lock smart lock', '1S')}<{('Add preferences', '1S'), ('Change settings', '1S'), ('View preferences', '1S1P'), ('Dis/arm system', '1S'), ('View past footage', '1S1P'), ('Monitor current parameters', '1S'), ('UN/lock smart lock', '1S')}<{('Add preferences', '1S'), ('Change settings', '1S'), ('View preferences', '1S1P'), ('Dis/arm system', '1S'), ('View past footage', '1S1P'), ('Monitor current parameters', '1S'), ('UN/lock smart lock', '1S')}<
+
+null<null<{('Add preferences', '1S'), ('UN/lock smart lock', '1S')}<{('View past footage', '1S1P'), ('Add preferences', '1S'), ('View preferences', '1S1P'), ('Monitor current parameters', '1S'), ('UN/lock smart lock', '1S')}<{('View past footage', '1S1P'), ('Add preferences', '1S'), ('View preferences', '1S1P'), ('Monitor current parameters', '1S'), ('UN/lock smart lock', '1S')}<{('View past footage', '1S1P'), ('Add preferences', '1S'), ('View preferences', '1S1P'), ('Monitor current parameters', '1S'), ('UN/lock smart lock', '1S')}<
+
+null<null<null<{('View preferences', '1S1P'), ('View past footage', '1S1P'), ('Monitor current parameters', '1S')}<{('View preferences', '1S1P'), ('View past footage', '1S1P'), ('Monitor current parameters', '1S')}<{('View preferences', '1S1P'), ('View past footage', '1S1P'), ('Monitor current parameters', '1S')}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+
+Amazon Echo
+null<{('Power ON/OFF', '3S')}<{('Power ON/OFF', '3S'), ('Modify preferences', '3S'), ('Adding skills', '3S'), ('Order using the skills', '3S')}<{('Setting alarms', '2S'), ('Add items to shopping cart', '3S'), ('Power ON/OFF', '3S'), ('Adding skills', '3S'), ('Order using the skills', '3S'), ('Modify preferences', '3S'), ('View preferences/history', '2P'), ('View shopping cart', '2P'), ('Stream music', 4), ('Ask private details', '1P')}<{('Power ON/OFF', '3S'), ('Adding skills', '3S'), ('Order using the skills', '3S'), ('Modify preferences', '3S'), ('View preferences/history', '2P'), ('View shopping cart', '2P')}<{('Setting alarms', '2S'), ('Add items to shopping cart', '3S'), ('Power ON/OFF', '3S'), ('Adding skills', '3S'), ('Order using the skills', '3S'), ('Modify preferences', '3S'), ('View preferences/history', '2P'), ('View shopping cart', '2P'), ('Stream music', 4), ('Ask private details', '1P')}<
+
+null<null<{('Modify preferences', '3S'), ('Adding skills', '3S'), ('Order using the skills', '3S')}<{('Setting alarms', '2S'), ('Add items to shopping cart', '3S'), ('Adding skills', '3S'), ('Order using the skills', '3S'), ('Modify preferences', '3S'), ('View preferences/history', '2P'), ('View shopping cart', '2P'), ('Stream music', 4), ('Ask private details', '1P')}<{('Modify preferences', '3S'), ('View shopping cart', '2P'), ('Adding skills', '3S'), ('View preferences/history', '2P'), ('Order using the skills', '3S')}<{('Setting alarms', '2S'), ('Add items to shopping cart', '3S'), ('Adding skills', '3S'), ('Order using the skills', '3S'), ('Modify preferences', '3S'), ('View preferences/history', '2P'), ('View shopping cart', '2P'), ('Stream music', 4), ('Ask private details', '1P')}<
+
+null<null<null<{('Setting alarms', '2S'), ('Add items to shopping cart', '3S'), ('View preferences/history', '2P'), ('View shopping cart', '2P'), ('Stream music', 4), ('Ask private details', '1P')}<{('View shopping cart', '2P'), ('View preferences/history', '2P')}<{('Setting alarms', '2S'), ('Add items to shopping cart', '3S'), ('View preferences/history', '2P'), ('View shopping cart', '2P'), ('Stream music', 4), ('Ask private details', '1P')}<
+
+null<null<null<null<null<null<
+
+null<null<null<{('Setting alarms', '2S'), ('Add items to shopping cart', '3S'), ('Stream music', 4), ('Ask private details', '1P')}<null<{('Setting alarms', '2S'), ('Add items to shopping cart', '3S'), ('Stream music', 4), ('Ask private details', '1P')}<
+
+null<null<null<null<null<null<
+
+
+
+Smart TV
+null<{('Power ON/OFF', '3S'), ('Add/modify users', '3S'), ('Change device settings', '3S')}<{('Power ON/OFF', '3S'), ('Add restrictions(device based and content based)', '3S'), ('Add TV apps', '3S'), ('Add/modify users', '3S'), ('Modify preferences', '3S'), ('Make video calls', '2S'), ('Change device settings', '3S'), ('Order online', '3S')}<{('Power ON/OFF', '3S'), ('Add items to shopping cart', '3S'), ('Add restrictions(device based and content based)', '3S'), ('Add TV apps', '3S'), ('Add/modify users', '3S'), ('Modify preferences', '3S'), ('Make video calls', '2S'), ('View shopping cart', '1P'), ('Change device settings', '3S'), ('Order online', '3S'), ('View preferences/history', '1P'), ('Cast other device', '2P')}<{('Power ON/OFF', '3S'), ('Add restrictions(device based and content based)', '3S'), ('Add TV apps', '3S'), ('Watch sensitive content', '1P'), ('Add/modify users', '3S'), ('Modify preferences', '3S'), ('Make video calls', '2S'), ('View shopping cart', '1P'), ('Change device settings', '3S'), ('Order online', '3S'), ('View preferences/history', '1P'), ('Cast other device', '2P')}<{('Power ON/OFF', '3S'), ('Add items to shopping cart', '3S'), ('Add restrictions(device based and content based)', '3S'), ('Add TV apps', '3S'), ('Watch sensitive content', '1P'), ('Add/modify users', '3S'), ('Modify preferences', '3S'), ('Make video calls', '2S'), ('View shopping cart', '1P'), ('Change device settings', '3S'), ('Order online', '3S'), ('View preferences/history', '1P'), ('Cast other device', '2P')}<
+
+null<null<{('Modify preferences', '3S'), ('Add restrictions(device based and content based)', '3S'), ('Add TV apps', '3S'), ('Order online', '3S'), ('Make video calls', '2S')}<{('Add items to shopping cart', '3S'), ('Add restrictions(device based and content based)', '3S'), ('Add TV apps', '3S'), ('Modify preferences', '3S'), ('Make video calls', '2S'), ('View shopping cart', '1P'), ('Order online', '3S'), ('View preferences/history', '1P'), ('Cast other device', '2P')}<{('Add restrictions(device based and content based)', '3S'), ('Add TV apps', '3S'), ('Watch sensitive content', '1P'), ('Modify preferences', '3S'), ('Make video calls', '2S'), ('View shopping cart', '1P'), ('Order online', '3S'), ('View preferences/history', '1P'), ('Cast other device', '2P')}<{('Add items to shopping cart', '3S'), ('Add restrictions(device based and content based)', '3S'), ('Add TV apps', '3S'), ('Watch sensitive content', '1P'), ('Modify preferences', '3S'), ('Make video calls', '2S'), ('View shopping cart', '1P'), ('Order online', '3S'), ('View preferences/history', '1P'), ('Cast other device', '2P')}<
+
+null<null<null<{('Add items to shopping cart', '3S'), ('Cast other device', '2P'), ('View preferences/history', '1P'), ('View shopping cart', '1P')}<{('View shopping cart', '1P'), ('Cast other device', '2P'), ('View preferences/history', '1P'), ('Watch sensitive content', '1P')}<{('Add items to shopping cart', '3S'), ('Cast other device', '2P'), ('View preferences/history', '1P'), ('Watch sensitive content', '1P'), ('View shopping cart', '1P')}<
+
+null<null<null<null<{('Watch sensitive content', '1P')}<{('Watch sensitive content', '1P')}<
+
+null<null<null<{('Add items to shopping cart', '3S')}<null<{('Add items to shopping cart', '3S')}<
+
+null<null<null<null<null<null<
+
+
+
+Smart Lock
+null<{('Power ON/OFF', '1S'), ('Control/modify users', '1S')}<{('View usage history', '1S1P'), ('Power ON/OFF', '1S'), ('Restrict usage over a period', '1S'), ('Control/modify users', '1S')}<{('Power ON/OFF', '1S'), ('View usage history', '1S1P'), ('Control/modify users', '1S'), ('Restrict usage over a period', '1S'), ('Un/lock smart lock', '1S')}<{('Power ON/OFF', '1S'), ('View usage history', '1S1P'), ('Control/modify users', '1S'), ('Restrict usage over a period', '1S'), ('Un/lock smart lock', '1S')}<{('Power ON/OFF', '1S'), ('View usage history', '1S1P'), ('Control/modify users', '1S'), ('Restrict usage over a period', '1S'), ('Un/lock smart lock', '1S')}<
+
+null<null<{('View usage history', '1S1P'), ('Restrict usage over a period', '1S')}<{('View usage history', '1S1P'), ('Restrict usage over a period', '1S'), ('Un/lock smart lock', '1S')}<{('View usage history', '1S1P'), ('Restrict usage over a period', '1S'), ('Un/lock smart lock', '1S')}<{('View usage history', '1S1P'), ('Restrict usage over a period', '1S'), ('Un/lock smart lock', '1S')}<
+
+null<null<null<{('Un/lock smart lock', '1S')}<{('Un/lock smart lock', '1S')}<{('Un/lock smart lock', '1S')}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+
+Smart Light
+null<{('Sync/add other accounts', '2S'), ('Power ON/OFF', '2S')}<{('Sync/add other accounts', '2S'), ('Change ambiance', '2S'), ('Change schedule', '2S'), ('Power ON/OFF', '2S')}<{('Start a schedule/ambiance', '2S'), ('Sync/add other accounts', '2S'), ('Change ambiance', '2S'), ('Change schedule', '2S'), ('Power ON/OFF', '2S')}<{('Start a schedule/ambiance', '2S'), ('Sync/add other accounts', '2S'), ('Change ambiance', '2S'), ('Change schedule', '2S'), ('Power ON/OFF', '2S')}<{('Start a schedule/ambiance', '2S'), ('Sync/add other accounts', '2S'), ('Change ambiance', '2S'), ('Change schedule', '2S'), ('Power ON/OFF', '2S')}<
+
+null<null<{('Change schedule', '2S'), ('Change ambiance', '2S')}<{('Start a schedule/ambiance', '2S'), ('Change schedule', '2S'), ('Change ambiance', '2S')}<{('Start a schedule/ambiance', '2S'), ('Change schedule', '2S'), ('Change ambiance', '2S')}<{('Start a schedule/ambiance', '2S'), ('Change schedule', '2S'), ('Change ambiance', '2S')}<
+
+null<null<null<{('Start a schedule/ambiance', '2S')}<{('Start a schedule/ambiance', '2S')}<{('Start a schedule/ambiance', '2S')}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+
+Smart Fridge
+null<{('Power ON/OFF', '3S'), ('Sync/add other accounts', '3S'), ('change settings', '3S')}<{('Power ON/OFF', '3S'), ('View device condition', '3S'), ('change settings', '3S'), ('Order online', '3S'), ('Sync/add other accounts', '3S'), ('Modify preferences', '2S')}<{('Power ON/OFF', '3S'), ('Add items to shopping cart', '3S'), ('Stream music', '3S'), ('View device condition', '3S'), ('change settings', '3S'), ('Modify family board', '1P'), ('Order online', '3S'), ('View history', '3P'), ('Sync/add other accounts', '3S'), ('View preferences', '2P'), ('View inside fridge', '3P'), ('Modify preferences', '2S')}<{('Power ON/OFF', '3S'), ('View device condition', '3S'), ('change settings', '3S'), ('Order online', '3S'), ('View history', '3P'), ('Sync/add other accounts', '3S'), ('View preferences', '2P'), ('View inside fridge', '3P'), ('Modify preferences', '2S')}<{('Power ON/OFF', '3S'), ('Add items to shopping cart', '3S'), ('Stream music', '3S'), ('View device condition', '3S'), ('change settings', '3S'), ('Modify family board', '1P'), ('Order online', '3S'), ('View history', '3P'), ('Sync/add other accounts', '3S'), ('View preferences', '2P'), ('View inside fridge', '3P'), ('Modify preferences', '2S')}<
+
+null<null<{('View device condition', '3S'), ('Order online', '3S'), ('Modify preferences', '2S')}<{('Add items to shopping cart', '3S'), ('Stream music', '3S'), ('View device condition', '3S'), ('Modify family board', '1P'), ('Order online', '3S'), ('View history', '3P'), ('View preferences', '2P'), ('View inside fridge', '3P'), ('Modify preferences', '2S')}<{('View device condition', '3S'), ('Order online', '3S'), ('View history', '3P'), ('View preferences', '2P'), ('View inside fridge', '3P'), ('Modify preferences', '2S')}<{('Add items to shopping cart', '3S'), ('Stream music', '3S'), ('View device condition', '3S'), ('Modify family board', '1P'), ('Order online', '3S'), ('View history', '3P'), ('View preferences', '2P'), ('View inside fridge', '3P'), ('Modify preferences', '2S')}<
+
+null<null<null<{('Add items to shopping cart', '3S'), ('Stream music', '3S'), ('Modify family board', '1P'), ('View history', '3P'), ('View preferences', '2P'), ('View inside fridge', '3P')}<{('View preferences', '2P'), ('View inside fridge', '3P'), ('View history', '3P')}<{('Add items to shopping cart', '3S'), ('Stream music', '3S'), ('Modify family board', '1P'), ('View history', '3P'), ('View preferences', '2P'), ('View inside fridge', '3P')}<
+
+null<null<null<null<null<null<
+
+null<null<null<{('Add items to shopping cart', '3S'), ('Stream music', '3S'), ('Modify family board', '1P')}<null<{('Add items to shopping cart', '3S'), ('Stream music', '3S'), ('Modify family board', '1P')}<
+
+null<null<null<null<null<null<
+
+
+

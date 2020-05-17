@@ -1,6 +1,5 @@
 from device import device
 from devices import devices
-from user_group_body import user_group_body
 from user_group import user_group
 from user import user
 import pandas as pd
@@ -53,7 +52,7 @@ for j,k in zip(keys, list_of_list):
 	if j[1] == 'MF':
 		k.pop(0)
 	privileges_dict[j] = k
-
+# print(privileges_dict[('Amazon Echo', 'Echo')])
 #Combining columns functionality and user tags.
 lists = []
 l =[]
@@ -122,3 +121,4 @@ for m in list_device_objects:
 
 #Pickling the current devices based on floorplan to use in the future.
 save_object(list_current_devices, 'devices_floorplan.pkl')
+save_object(list_device_objects, 'devices.pkl')

@@ -1,0 +1,165 @@
+Smart TV
+null<{'Power ON/OFF', 'Change device settings', 'Add/modify users'}<{'Add TV apps', 'Power ON/OFF', 'Change device settings', 'Make video calls', 'Add restrictions(device based and content based)', 'Order online', 'Add/modify users', 'Modify preferences'}<{'Add TV apps', 'Cast other device', 'Power ON/OFF', 'Change device settings', 'Make video calls', 'View shopping cart', 'Add restrictions(device based and content based)', 'Order online', 'Add/modify users', 'Add items to shopping cart', 'View preferences/history', 'Modify preferences'}<{'Add TV apps', 'Cast other device', 'Power ON/OFF', 'Change device settings', 'Watch sensitive content', 'Make video calls', 'View shopping cart', 'Add restrictions(device based and content based)', 'Order online', 'Add/modify users', 'View preferences/history', 'Modify preferences'}<{'Add/modify users', 'Add TV apps', 'Cast other device', 'Power ON/OFF', 'Watch sensitive content', 'Make video calls', 'Add restrictions(device based and content based)', 'Order online', 'View shopping cart', 'Change device settings', 'Add items to shopping cart', 'View preferences/history', 'Modify preferences'}<
+
+null<null<{'Order online', 'Add restrictions(device based and content based)', 'Add TV apps', 'Make video calls', 'Modify preferences'}<{'Add TV apps', 'Cast other device', 'Make video calls', 'View shopping cart', 'Add restrictions(device based and content based)', 'Order online', 'Add items to shopping cart', 'View preferences/history', 'Modify preferences'}<{'Add TV apps', 'Cast other device', 'Watch sensitive content', 'Make video calls', 'View shopping cart', 'Add restrictions(device based and content based)', 'Order online', 'View preferences/history', 'Modify preferences'}<{'Add TV apps', 'Cast other device', 'Watch sensitive content', 'Make video calls', 'Add restrictions(device based and content based)', 'Order online', 'View shopping cart', 'Add items to shopping cart', 'View preferences/history', 'Modify preferences'}<
+
+null<null<null<{'Cast other device', 'View shopping cart', 'View preferences/history', 'Add items to shopping cart'}<{'View shopping cart', 'Cast other device', 'Watch sensitive content', 'View preferences/history'}<{'View shopping cart', 'Cast other device', 'Watch sensitive content', 'View preferences/history', 'Add items to shopping cart'}<
+
+null<null<null<null<{'Watch sensitive content'}<{'Watch sensitive content'}<
+
+null<null<null<{'Add items to shopping cart'}<null<{'Add items to shopping cart'}<
+
+null<null<null<null<null<null<
+
+
+
+Smart Fridge
+null<{'change settings', 'Power ON/OFF', 'Sync/add other accounts'}<{'Power ON/OFF', 'View device condition', 'change settings', 'Sync/add other accounts', 'Order online', 'Modify preferences'}<{'View preferences', 'Modify family board', 'Power ON/OFF', 'View inside fridge', 'Stream music', 'View device condition', 'change settings', 'Sync/add other accounts', 'View history', 'Order online', 'Add items to shopping cart', 'Modify preferences'}<{'View preferences', 'Power ON/OFF', 'View inside fridge', 'View device condition', 'change settings', 'Sync/add other accounts', 'View history', 'Order online', 'Modify preferences'}<{'View preferences', 'Modify family board', 'Power ON/OFF', 'View inside fridge', 'Stream music', 'View device condition', 'change settings', 'Sync/add other accounts', 'View history', 'Order online', 'Add items to shopping cart', 'Modify preferences'}<
+
+null<null<{'View device condition', 'Order online', 'Modify preferences'}<{'View preferences', 'Modify family board', 'View inside fridge', 'Stream music', 'View device condition', 'View history', 'Order online', 'Add items to shopping cart', 'Modify preferences'}<{'View preferences', 'View inside fridge', 'View device condition', 'View history', 'Order online', 'Modify preferences'}<{'View preferences', 'Modify family board', 'View inside fridge', 'Stream music', 'View device condition', 'View history', 'Order online', 'Add items to shopping cart', 'Modify preferences'}<
+
+null<null<null<{'View preferences', 'Modify family board', 'View inside fridge', 'Stream music', 'View history', 'Add items to shopping cart'}<{'View history', 'View inside fridge', 'View preferences'}<{'View preferences', 'Modify family board', 'View inside fridge', 'Stream music', 'View history', 'Add items to shopping cart'}<
+
+null<null<null<null<null<null<
+
+null<null<null<{'Modify family board', 'Stream music', 'Add items to shopping cart'}<null<{'Modify family board', 'Stream music', 'Add items to shopping cart'}<
+
+null<null<null<null<null<null<
+
+
+
+Smart Light
+null<{'Power ON/OFF', 'Sync/add other accounts'}<{'Sync/add other accounts', 'Change schedule', 'Power ON/OFF', 'Change ambiance'}<{'Sync/add other accounts', 'Change schedule', 'Power ON/OFF', 'Change ambiance', 'Start a schedule/ambiance'}<{'Sync/add other accounts', 'Change schedule', 'Power ON/OFF', 'Change ambiance', 'Start a schedule/ambiance'}<{'Sync/add other accounts', 'Change schedule', 'Power ON/OFF', 'Change ambiance', 'Start a schedule/ambiance'}<
+
+null<null<{'Change schedule', 'Change ambiance'}<{'Change schedule', 'Change ambiance', 'Start a schedule/ambiance'}<{'Change schedule', 'Change ambiance', 'Start a schedule/ambiance'}<{'Change schedule', 'Change ambiance', 'Start a schedule/ambiance'}<
+
+null<null<null<{'Start a schedule/ambiance'}<{'Start a schedule/ambiance'}<{'Start a schedule/ambiance'}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+
+Contact and flame sensors
+null<{'Power ON/OFF', 'Change settings'}<{'Power ON/OFF', 'Change settings', 'Adjust sensitivity'}<{'Adjust sensitivity', 'Power ON/OFF', 'View history', 'Change settings'}<{'Adjust sensitivity', 'Power ON/OFF', 'View history', 'Change settings'}<{'Adjust sensitivity', 'Power ON/OFF', 'View history', 'Change settings'}<
+
+null<null<{'Adjust sensitivity'}<{'View history', 'Adjust sensitivity'}<{'View history', 'Adjust sensitivity'}<{'View history', 'Adjust sensitivity'}<
+
+null<null<null<{'View history'}<{'View history'}<{'View history'}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+
+Smart security system
+null<{'Change settings', 'Dis/arm system'}<{'Change settings', 'Add preferences', 'UN/lock smart lock', 'Dis/arm system'}<{'Add preferences', 'View preferences', 'Dis/arm system', 'Monitor current parameters', 'Change settings', 'View past footage', 'UN/lock smart lock'}<{'Add preferences', 'View preferences', 'Dis/arm system', 'Monitor current parameters', 'Change settings', 'View past footage', 'UN/lock smart lock'}<{'Add preferences', 'View preferences', 'Dis/arm system', 'Monitor current parameters', 'Change settings', 'View past footage', 'UN/lock smart lock'}<
+
+null<null<{'Add preferences', 'UN/lock smart lock'}<{'View past footage', 'UN/lock smart lock', 'Add preferences', 'Monitor current parameters', 'View preferences'}<{'View past footage', 'UN/lock smart lock', 'Add preferences', 'Monitor current parameters', 'View preferences'}<{'View past footage', 'UN/lock smart lock', 'Add preferences', 'Monitor current parameters', 'View preferences'}<
+
+null<null<null<{'View past footage', 'Monitor current parameters', 'View preferences'}<{'View past footage', 'Monitor current parameters', 'View preferences'}<{'View past footage', 'Monitor current parameters', 'View preferences'}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+
+Smart Lock
+null<{'Power ON/OFF', 'Control/modify users'}<{'View usage history', 'Power ON/OFF', 'Control/modify users', 'Restrict usage over a period'}<{'View usage history', 'Power ON/OFF', 'Control/modify users', 'Restrict usage over a period', 'Un/lock smart lock'}<{'View usage history', 'Power ON/OFF', 'Control/modify users', 'Restrict usage over a period', 'Un/lock smart lock'}<{'View usage history', 'Power ON/OFF', 'Control/modify users', 'Restrict usage over a period', 'Un/lock smart lock'}<
+
+null<null<{'View usage history', 'Restrict usage over a period'}<{'View usage history', 'Restrict usage over a period', 'Un/lock smart lock'}<{'View usage history', 'Restrict usage over a period', 'Un/lock smart lock'}<{'View usage history', 'Restrict usage over a period', 'Un/lock smart lock'}<
+
+null<null<null<{'Un/lock smart lock'}<{'Un/lock smart lock'}<{'Un/lock smart lock'}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+
+Smart Oven
+null<{'Power ON/OFF', 'Change settings'}<{'Modify preferences', 'Power ON/OFF', 'create/modify timers', 'View current parameters of the oven', 'Change settings'}<{'View preferences', 'Power ON/OFF', 'Change settings', 'create/modify timers', 'View current parameters of the oven', 'Modify preferences'}<{'View preferences', 'Power ON/OFF', 'Change settings', 'create/modify timers', 'View current parameters of the oven', 'Modify preferences'}<{'View preferences', 'Power ON/OFF', 'Change settings', 'create/modify timers', 'View current parameters of the oven', 'Modify preferences'}<
+
+null<null<{'View current parameters of the oven', 'create/modify timers', 'Modify preferences'}<{'View current parameters of the oven', 'create/modify timers', 'View preferences', 'Modify preferences'}<{'View current parameters of the oven', 'create/modify timers', 'View preferences', 'Modify preferences'}<{'View current parameters of the oven', 'create/modify timers', 'View preferences', 'Modify preferences'}<
+
+null<null<null<{'View preferences'}<{'View preferences'}<{'View preferences'}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+
+Thermostat
+null<{'create/modify settings', 'Power ON/OFF'}<{'create/modify settings', 'Power ON/OFF', 'Add/change schedule'}<{'create/modify settings', 'Start a schedule', 'Power ON/OFF', 'Add/change schedule'}<{'create/modify settings', 'Start a schedule', 'Power ON/OFF', 'Add/change schedule'}<{'create/modify settings', 'Start a schedule', 'Power ON/OFF', 'Add/change schedule'}<
+
+null<null<{'Add/change schedule'}<{'Start a schedule', 'Add/change schedule'}<{'Start a schedule', 'Add/change schedule'}<{'Start a schedule', 'Add/change schedule'}<
+
+null<null<null<{'Start a schedule'}<{'Start a schedule'}<{'Start a schedule'}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+
+Amazon Echo
+null<{'Power ON/OFF'}<{'Modify preferences', 'Power ON/OFF', 'Adding skills', 'Order using the skills'}<{'Setting alarms', 'Power ON/OFF', 'Stream music', 'Adding skills', 'Order using the skills', 'View shopping cart', 'Ask private details', 'Add items to shopping cart', 'View preferences/history', 'Modify preferences'}<{'Power ON/OFF', 'Adding skills', 'Order using the skills', 'View shopping cart', 'View preferences/history', 'Modify preferences'}<{'Setting alarms', 'Power ON/OFF', 'Stream music', 'Adding skills', 'Order using the skills', 'View shopping cart', 'Ask private details', 'Add items to shopping cart', 'View preferences/history', 'Modify preferences'}<
+
+null<null<{'Modify preferences', 'Adding skills', 'Order using the skills'}<{'Setting alarms', 'Stream music', 'Adding skills', 'Order using the skills', 'View shopping cart', 'Ask private details', 'Add items to shopping cart', 'View preferences/history', 'Modify preferences'}<{'View preferences/history', 'Modify preferences', 'View shopping cart', 'Adding skills', 'Order using the skills'}<{'Setting alarms', 'Stream music', 'Adding skills', 'Order using the skills', 'View shopping cart', 'Ask private details', 'Add items to shopping cart', 'View preferences/history', 'Modify preferences'}<
+
+null<null<null<{'Setting alarms', 'Stream music', 'View shopping cart', 'Ask private details', 'Add items to shopping cart', 'View preferences/history'}<{'View shopping cart', 'View preferences/history'}<{'Setting alarms', 'Stream music', 'View shopping cart', 'Ask private details', 'Add items to shopping cart', 'View preferences/history'}<
+
+null<null<null<null<null<null<
+
+null<null<null<{'Setting alarms', 'Stream music', 'Add items to shopping cart', 'Ask private details'}<null<{'Setting alarms', 'Stream music', 'Add items to shopping cart', 'Ask private details'}<
+
+null<null<null<null<null<null<
+
+
+
+Smart shower
+null<{'Add new equipment', 'Add/modify users'}<{'Add new equipment', 'change settings', 'Add/modify users'}<{'View usage history', 'change settings', 'Add/modify users', 'Add new equipment'}<{'View usage history', 'Change parameters', 'change settings', 'Add/modify users', 'Add new equipment'}<{'View usage history', 'Change parameters', 'change settings', 'Add/modify users', 'Add new equipment'}<
+
+null<null<{'change settings'}<{'View usage history', 'change settings'}<{'View usage history', 'Change parameters', 'change settings'}<{'View usage history', 'Change parameters', 'change settings'}<
+
+null<null<null<{'View usage history'}<{'View usage history', 'Change parameters'}<{'View usage history', 'Change parameters'}<
+
+null<null<null<null<{'Change parameters'}<{'Change parameters'}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+
+Smart Plug/Socket
+null<{'Change settings'}<{'Change settings', 'Switch ON/OFF ', 'Add/modify scenes or schedules'}<{'Change settings', 'Start a schedule', 'Switch ON/OFF ', 'Add/modify scenes or schedules'}<{'Change settings', 'Start a schedule', 'Switch ON/OFF ', 'Add/modify scenes or schedules'}<{'Change settings', 'Start a schedule', 'Switch ON/OFF ', 'Add/modify scenes or schedules'}<
+
+null<null<{'Switch ON/OFF ', 'Add/modify scenes or schedules'}<{'Start a schedule', 'Switch ON/OFF ', 'Add/modify scenes or schedules'}<{'Start a schedule', 'Switch ON/OFF ', 'Add/modify scenes or schedules'}<{'Start a schedule', 'Switch ON/OFF ', 'Add/modify scenes or schedules'}<
+
+null<null<null<{'Start a schedule'}<{'Start a schedule'}<{'Start a schedule'}<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+null<null<null<null<null<null<
+
+
+

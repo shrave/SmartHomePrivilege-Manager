@@ -1,0 +1,165 @@
+Smart Fridge
+1
+{('Sync/add other accounts', '3S'), ('Add items to shopping cart', '3S'), ('Power ON/OFF', '3S'), ('Modify family board', '1P'), ('View inside fridge', '3P'), ('View device condition', '3S'), ('Stream music', '3S'), ('Order online', '3S'), ('View recipes', 4), ('change settings', '3S'), ('View history', '3P'), ('Modify preferences', '2S'), ('View preferences', '2P'), ('View family board', '1P')}
+2
+{('Add items to shopping cart', '3S'), ('Modify family board', '1P'), ('View inside fridge', '3P'), ('View device condition', '3S'), ('Stream music', '3S'), ('Order online', '3S'), ('View recipes', 4), ('View history', '3P'), ('Modify preferences', '2S'), ('View preferences', '2P'), ('View family board', '1P')}
+3
+{('Add items to shopping cart', '3S'), ('View preferences', '2P'), ('View inside fridge', '3P'), ('Stream music', '3S'), ('View recipes', 4), ('View history', '3P'), ('Modify family board', '1P'), ('View family board', '1P')}
+4
+{('View recipes', 4), ('View family board', '1P')}
+5
+{('Stream music', '3S'), ('View recipes', 4), ('Add items to shopping cart', '3S'), ('Modify family board', '1P'), ('View family board', '1P')}
+6
+{('View recipes', 4), ('View family board', '1P')}
+
+
+Smart shower
+1
+{('View usage history', '1P'), ('change settings', '1S'), ('Change parameters', '1S'), ('Add/modify users', '2S'), ('Add new equipment', '1S')}
+2
+{('change settings', '1S'), ('Change parameters', '1S'), ('View usage history', '1P')}
+3
+{('Change parameters', '1S'), ('View usage history', '1P')}
+4
+{('Change parameters', '1S')}
+5
+set()
+6
+set()
+
+
+Smart Lock
+1
+{('Restrict usage over a period', '1S'), ('View usage history', '1S1P'), ('Un/lock smart lock', '1S'), ('Control/modify users', '1S'), ('Power ON/OFF', '1S')}
+2
+{('Restrict usage over a period', '1S'), ('View usage history', '1S1P'), ('Un/lock smart lock', '1S')}
+3
+{('Un/lock smart lock', '1S')}
+4
+set()
+5
+set()
+6
+set()
+
+
+Contact and flame sensors
+1
+{('Power ON/OFF', '1S'), ('View history', '1S'), ('Adjust sensitivity', '1S'), ('Change settings', '1S')}
+2
+{('Adjust sensitivity', '1S'), ('View history', '1S')}
+3
+{('View history', '1S')}
+4
+set()
+5
+set()
+6
+set()
+
+
+Thermostat
+1
+{('Power ON/OFF', '2S'), ('Start a schedule', '1S'), ('create/modify settings', '2S'), ('Change temperature', '1S'), ('Add/change schedule', '2S')}
+2
+{('Start a schedule', '1S'), ('Change temperature', '1S'), ('Add/change schedule', '2S')}
+3
+{('Start a schedule', '1S'), ('Change temperature', '1S')}
+4
+{('Change temperature', '1S')}
+5
+{('Change temperature', '1S')}
+6
+{('Change temperature', '1S')}
+
+
+Smart Plug/Socket
+1
+{('Start a schedule', '1S'), ('Switch ON/OFF ', '1S'), ('Add/modify scenes or schedules', '2S'), ('Change settings', '2S')}
+2
+{('Start a schedule', '1S'), ('Switch ON/OFF ', '1S'), ('Add/modify scenes or schedules', '2S')}
+3
+{('Start a schedule', '1S')}
+4
+set()
+5
+set()
+6
+set()
+
+
+Amazon Echo
+1
+{('Add items to shopping cart', '3S'), ('Ask questions/info (non-private)', 4), ('Order using the skills', '3S'), ('Power ON/OFF', '3S'), ('Ask private details', '1P'), ('Stream music', 4), ('Modify preferences', '3S'), ('Adding skills', '3S'), ('View preferences/history', '2P'), ('Setting alarms', '2S'), ('View shopping cart', '2P')}
+2
+{('Add items to shopping cart', '3S'), ('Ask questions/info (non-private)', 4), ('Order using the skills', '3S'), ('Ask private details', '1P'), ('Stream music', 4), ('Modify preferences', '3S'), ('Adding skills', '3S'), ('View preferences/history', '2P'), ('Setting alarms', '2S'), ('View shopping cart', '2P')}
+3
+{('Add items to shopping cart', '3S'), ('Ask questions/info (non-private)', 4), ('Ask private details', '1P'), ('Stream music', 4), ('View preferences/history', '2P'), ('Setting alarms', '2S'), ('View shopping cart', '2P')}
+4
+{('Ask questions/info (non-private)', 4)}
+5
+{('Ask private details', '1P'), ('Add items to shopping cart', '3S'), ('Setting alarms', '2S'), ('Ask questions/info (non-private)', 4), ('Stream music', 4)}
+6
+{('Ask questions/info (non-private)', 4)}
+
+
+Smart Light
+1
+{('Sync/add other accounts', '2S'), ('Change schedule', '2S'), ('Start a schedule/ambiance', '2S'), ('Select background color', '2S'), ('Power ON/OFF', '2S'), ('Change ambiance', '2S')}
+2
+{('Change schedule', '2S'), ('Start a schedule/ambiance', '2S'), ('Select background color', '2S'), ('Change ambiance', '2S')}
+3
+{('Start a schedule/ambiance', '2S'), ('Select background color', '2S')}
+4
+{('Select background color', '2S')}
+5
+{('Select background color', '2S')}
+6
+{('Select background color', '2S')}
+
+
+Smart security system
+1
+{('Monitor current parameters', '1S'), ('View past footage', '1S1P'), ('View preferences', '1S1P'), ('Add preferences', '1S'), ('Dis/arm system', '1S'), ('UN/lock smart lock', '1S'), ('Change settings', '1S')}
+2
+{('UN/lock smart lock', '1S'), ('Monitor current parameters', '1S'), ('View preferences', '1S1P'), ('Add preferences', '1S'), ('View past footage', '1S1P')}
+3
+{('Monitor current parameters', '1S'), ('View preferences', '1S1P'), ('View past footage', '1S1P')}
+4
+set()
+5
+set()
+6
+set()
+
+
+Smart Oven
+1
+{('create/modify timers', '2S'), ('Power ON/OFF', '3S'), ('View current parameters of the oven', '1S'), ('View recipies', 4), ('Modify preferences', '2S'), ('View preferences', '2P')}
+2
+{('View recipies', 4), ('create/modify timers', '2S'), ('Modify preferences', '2S'), ('View preferences', '2P'), ('View current parameters of the oven', '1S')}
+3
+{('View recipies', 4), ('View preferences', '2P')}
+4
+{('View recipies', 4)}
+5
+{('View recipies', 4)}
+6
+{('View recipies', 4)}
+
+
+Smart TV
+1
+{('Add restrictions(device based and content based)', '3S'), ('Watch sensitive content', '1P'), ('View shopping cart', '1P'), ('Add/modify users', '3S'), ('Add items to shopping cart', '3S'), ('Cast other device', '2P'), ('Power ON/OFF', '3S'), ('Make video calls', '2S'), ('Change device settings', '3S'), ('Order online', '3S'), ('Modify preferences', '3S'), ('Use a TV app', 4), ('Watch normal content(non-restrictive)', 4), ('Add TV apps', '3S'), ('View preferences/history', '1P')}
+2
+{('Add restrictions(device based and content based)', '3S'), ('Watch sensitive content', '1P'), ('View shopping cart', '1P'), ('Add items to shopping cart', '3S'), ('Cast other device', '2P'), ('Make video calls', '2S'), ('Modify preferences', '3S'), ('Order online', '3S'), ('Use a TV app', 4), ('Watch normal content(non-restrictive)', 4), ('Add TV apps', '3S'), ('View preferences/history', '1P')}
+3
+{('Watch sensitive content', '1P'), ('View shopping cart', '1P'), ('Add items to shopping cart', '3S'), ('Cast other device', '2P'), ('Use a TV app', 4), ('Watch normal content(non-restrictive)', 4), ('View preferences/history', '1P')}
+4
+{('Watch sensitive content', '1P'), ('Watch normal content(non-restrictive)', 4), ('Use a TV app', 4)}
+5
+{('Add items to shopping cart', '3S'), ('Watch normal content(non-restrictive)', 4), ('Use a TV app', 4)}
+6
+{('Watch normal content(non-restrictive)', 4), ('Use a TV app', 4)}
+
+
