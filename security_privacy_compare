@@ -1,0 +1,99 @@
+Thermostat
+{'Start a schedule', 'Change temperature'}<{'Start a schedule', 'Change temperature'}<{'Start a schedule', 'Change temperature'}<
+
+{'Add/change schedule', 'Power ON/OFF', 'create/modify settings'}<{'Add/change schedule', 'Power ON/OFF', 'create/modify settings'}<{'Add/change schedule', 'Power ON/OFF', 'create/modify settings'}<
+
+set()<set()<set()<
+
+
+
+Smart Light
+set()<set()<set()<
+
+{'Sync/add other accounts', 'Change ambiance', 'Select background color', 'Start a schedule/ambiance', 'Change schedule', 'Power ON/OFF'}<{'Sync/add other accounts', 'Change ambiance', 'Select background color', 'Start a schedule/ambiance', 'Change schedule', 'Power ON/OFF'}<{'Sync/add other accounts', 'Change ambiance', 'Select background color', 'Start a schedule/ambiance', 'Change schedule', 'Power ON/OFF'}<
+
+set()<set()<set()<
+
+
+
+Amazon Echo
+{'Ask private details'}<{'View preferences/history', 'View shopping cart'}<set()<
+
+{'Setting alarms', 'Ask private details'}<{'View preferences/history', 'Setting alarms', 'View shopping cart'}<{'Setting alarms'}<
+
+{'Modify preferences', 'Ask private details', 'Adding skills', 'Add items to shopping cart', 'Power ON/OFF', 'Order using the skills'}<{'Modify preferences', 'Adding skills', 'Add items to shopping cart', 'View shopping cart', 'View preferences/history', 'Power ON/OFF', 'Order using the skills'}<{'Modify preferences', 'Power ON/OFF', 'Adding skills', 'Add items to shopping cart', 'Order using the skills'}<
+
+
+
+Smart Lock
+{'Restrict usage over a period', 'Control/modify users', 'View usage history', 'Un/lock smart lock', 'Power ON/OFF'}<{'View usage history', 'Un/lock smart lock', 'Restrict usage over a period', 'Power ON/OFF', 'Control/modify users'}<{'View usage history', 'Un/lock smart lock', 'Restrict usage over a period', 'Power ON/OFF', 'Control/modify users'}<
+
+{'View usage history'}<set()<set()<
+
+{'View usage history'}<set()<set()<
+
+
+
+Smart security system
+{'Monitor current parameters', 'Dis/arm system', 'Add preferences', 'Change settings', 'View past footage', 'View preferences', 'UN/lock smart lock'}<{'Monitor current parameters', 'Dis/arm system', 'Add preferences', 'Change settings', 'View past footage', 'View preferences', 'UN/lock smart lock'}<{'Monitor current parameters', 'Dis/arm system', 'Add preferences', 'Change settings', 'View past footage', 'View preferences', 'UN/lock smart lock'}<
+
+{'View past footage', 'View preferences'}<set()<set()<
+
+{'View past footage', 'View preferences'}<set()<set()<
+
+
+
+Smart shower
+{'View usage history', 'Add new equipment', 'Change parameters', 'change settings'}<{'Add new equipment', 'Change parameters', 'change settings'}<{'Add new equipment', 'Change parameters', 'change settings'}<
+
+{'View usage history', 'Add/modify users'}<{'Add/modify users'}<{'Add/modify users'}<
+
+{'View usage history'}<set()<set()<
+
+
+
+Contact and flame sensors
+{'View history', 'Power ON/OFF', 'Adjust sensitivity', 'Change settings'}<{'View history', 'Power ON/OFF', 'Adjust sensitivity', 'Change settings'}<{'View history', 'Power ON/OFF', 'Adjust sensitivity', 'Change settings'}<
+
+set()<set()<set()<
+
+set()<set()<set()<
+
+
+
+Smart Fridge
+{'View family board', 'Modify family board'}<{'View preferences'}<{'View inside fridge', 'View history'}<
+
+{'Modify preferences', 'Modify family board', 'View family board'}<{'Modify preferences', 'View preferences'}<{'Modify preferences', 'View history', 'View inside fridge'}<
+
+{'View family board', 'Sync/add other accounts', 'Modify family board', 'View device condition', 'change settings', 'Add items to shopping cart', 'Order online', 'Power ON/OFF', 'Stream music'}<{'Sync/add other accounts', 'View preferences', 'View device condition', 'change settings', 'Add items to shopping cart', 'Order online', 'Power ON/OFF', 'Stream music'}<{'Sync/add other accounts', 'View history', 'View inside fridge', 'View device condition', 'change settings', 'Add items to shopping cart', 'Order online', 'Power ON/OFF', 'Stream music'}<
+
+
+
+Smart Oven
+{'View current parameters of the oven'}<{'View current parameters of the oven', 'View preferences'}<{'View current parameters of the oven'}<
+
+{'Modify preferences', 'Select background color', 'create/modify timers'}<{'Modify preferences', 'Select background color', 'create/modify timers', 'View preferences'}<{'Modify preferences', 'Select background color', 'create/modify timers'}<
+
+{'Power ON/OFF'}<{'Power ON/OFF', 'View preferences'}<{'Power ON/OFF'}<
+
+
+
+Smart TV
+{'Watch sensitive content', 'View preferences/history', 'View shopping cart'}<{'Cast other device'}<set()<
+
+{'Watch sensitive content', 'Make video calls', 'View preferences/history', 'View shopping cart'}<{'Make video calls', 'Cast other device'}<{'Make video calls'}<
+
+{'Modify preferences', 'Change device settings', 'View preferences/history', 'Power ON/OFF', 'Add items to shopping cart', 'View shopping cart', 'Watch sensitive content', 'Order online', 'Add restrictions(device based and content based)', 'Add/modify users', 'Add TV apps'}<{'Modify preferences', 'Change device settings', 'Power ON/OFF', 'Cast other device', 'Add items to shopping cart', 'Order online', 'Add restrictions(device based and content based)', 'Add/modify users', 'Add TV apps'}<{'Modify preferences', 'Change device settings', 'Power ON/OFF', 'Add items to shopping cart', 'Order online', 'Add restrictions(device based and content based)', 'Add/modify users', 'Add TV apps'}<
+
+
+
+Smart Plug/Socket
+{'Switch ON/OFF ', 'Start a schedule'}<{'Switch ON/OFF ', 'Start a schedule'}<{'Switch ON/OFF ', 'Start a schedule'}<
+
+{'Add/modify scenes or schedules', 'Change settings'}<{'Add/modify scenes or schedules', 'Change settings'}<{'Add/modify scenes or schedules', 'Change settings'}<
+
+set()<set()<set()<
+
+
+
