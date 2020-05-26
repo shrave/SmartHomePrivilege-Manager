@@ -47,7 +47,7 @@ for k in task_dict.keys():
 			for i in task_dict[k][j][l]:
 				# print(i)
 				print(safety_dict[l[0]][i], end='<')
-			print('\n')
-		print('\n')
+			# print('\n')
+		# print('\n')
 	# print('\n')
 
