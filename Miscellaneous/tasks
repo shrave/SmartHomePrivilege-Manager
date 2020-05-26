@@ -1,0 +1,700 @@
+Create an ambiance
+('3', '1', '2')
+('Amazon Echo', 'Echo')
+stream music
+
+
+('Smart Light', 'L1-6')
+Start schedule/ambiance
+Select background color
+
+
+('Thermostat', 'Thermo1-5')
+Start schedule
+
+
+('Smart Fridge', 'Fridge')
+stream music
+
+
+('Smart TV', 'TV')
+Cast another device
+
+
+
+
+('1', '2')
+('Smart Light', 'L1-6')
+add/modify a scene/ambiance
+
+
+('Thermostat', 'Thermo1-5')
+add/modify a scene/ambiance
+
+
+
+
+
+
+Settings13
+('1',)
+('Smart Light', 'Light')
+Sync/add other accounts
+
+
+
+
+
+
+Settings12
+('1',)
+('Thermostat', 'Thermo1-5')
+Create/modify settings
+
+
+
+
+
+
+Children/Pets running
+('3', '4', '5', '6', '1', '2')
+('Contact and flame sensors', 'In their device owned rooms only')
+Adjust sensitivity
+
+
+
+
+('1', '2')
+('Contact and flame sensors', 'ALL')
+Adjust sensitivity
+Adjust sensitivity
+
+
+
+
+
+
+Cook Food
+('1', '2')
+('Smart Oven', 'Oven')
+Set/modify alarms
+
+
+
+
+('3', '4', '5', '1', '2')
+('Smart Fridge', 'Fridge')
+View Inside fridge
+View recipes
+
+
+('Smart Oven', 'Oven')
+View recipes
+
+
+
+
+
+
+View history1
+('1', '2', '3')
+('Smart Lock', 'Lock')
+View usage history
+
+
+
+
+
+
+Leave House
+('4', '5', '6', '1', '2', '3')
+('Thermostat', 'Thermo1-5')
+Change temperature
+
+
+
+
+('3', '1', '2')
+('Thermostat', 'Thermo1-5')
+Start schedule
+
+
+('Smart Light', 'respective')
+Start schedule
+
+
+
+
+('2', '1')
+('Smart security system', 'SSS')
+UN/lock smart lock
+
+
+('Smart Lock', 'Lock')
+Switch ON/OFF 
+Restrict usage over a period
+
+
+
+
+('1',)
+('Smart security system', 'SSS')
+Dis/arm system
+
+
+
+
+
+
+Install3
+('1', '2')
+('Amazon Echo', 'Echo')
+Add a skill
+
+
+
+
+
+
+Settings16
+('1',)
+('Smart Plug', 'P')
+change settings
+
+
+
+
+
+
+Activities for personal hygiene
+('1', '2', '3', '4')
+('Smart shower', 'respective')
+Change parameters
+
+
+
+
+
+
+Settings1
+('1', '2')
+('Amazon Echo', 'Echo')
+Modify preferences
+
+
+
+
+
+
+AddUser1
+('1',)
+('Smart Lock', 'Lock')
+Control/modify users
+
+
+
+
+
+
+Settings11
+('1', '2')
+('Smart Oven', 'Oven')
+Modify preferences
+
+
+
+
+
+
+Settings3
+('1', '2')
+('Smart shower', 'S')
+change settings
+
+
+
+
+
+
+AddUser2
+('1',)
+('Amazon Echo', 'Echo')
+Add/modify users
+
+
+
+
+
+
+Settings10
+('1', '2')
+('Smart Oven', 'Oven')
+View preferences
+
+
+
+
+
+
+Settings6
+('1', '2')
+('Smart Fridge', 'Fridge')
+View preferences
+
+
+
+
+
+
+Call 
+('3', '4', '5', '6')
+('Amazon Echo', 'Echo')
+ask to call via questions on their mobile apps
+
+
+
+
+('1', '2')
+('Smart TV', 'TV')
+Make video calls
+
+
+
+
+
+
+View history5
+('1', '2', '3')
+('Smart security system', 'SSS')
+View past footage
+
+
+
+
+
+
+Settings4
+('1', '2')
+('Smart TV', 'TV')
+Modify preferences
+
+
+
+
+
+
+Settings7
+('1', '2')
+('Smart Fridge', 'Fridge')
+Modify preferences
+
+
+
+
+
+
+Settings5
+('1', '2')
+('Smart TV', 'TV')
+Add restrictions
+
+
+
+
+
+
+Install2 
+('1', '2')
+('Smart shower', 'S')
+Add new equipment
+
+
+
+
+
+
+Settings17
+('1',)
+('Contact and flame sensors', 'MF')
+change settings
+
+
+
+
+
+
+Settings2
+('1', '2')
+('Amazon Echo', 'Echo')
+View preferences
+
+
+
+
+
+
+Settings9
+('1', '2')
+('Smart security system', 'SSS')
+Add preferences
+
+
+
+
+
+
+Settings19
+('1',)
+('Smart security system', 'SSS')
+change settings
+
+
+
+
+
+
+View history4
+('1', '2', '3')
+('Smart TV', 'TV')
+View history
+
+
+
+
+
+
+View history2
+('1', '2', '3')
+('echo', 'Echo')
+View history
+
+
+
+
+
+
+Bedtime
+('1', '2', '3', '4', '5', '6')
+('Smart Light', 'L1-6')
+Select background color
+
+
+('Thermostat', 'Thermo1-5')
+Change temperature
+
+
+
+
+('1', '2')
+('Smart Lock', 'Lock')
+Switch ON/OFF 
+Restrict usage over a period
+
+
+('Smart security system', 'SSS')
+Dis/arm system
+UN/lock smart lock
+
+
+('Thermostat', 'ALL')
+Start schedule
+
+
+('Smart Plug', 'ALL')
+Start schedule
+
+
+
+
+
+
+View history6
+('1', '2', '3')
+('Contact and flame sensors', 'MF')
+View history
+
+
+
+
+
+
+Personal Assistant
+('1', '2', '3', '5')
+('Amazon Echo', 'Echo')
+Ask private questions
+
+
+
+
+('4', '6', '3', '2', '1', '5')
+('Amazon Echo', 'Echo')
+Ask questions/info (non-private)
+
+
+
+
+
+
+Settings15
+('1',)
+('Smart Fridge', 'Fridge')
+Sync/add other accounts
+
+
+
+
+
+
+Install1
+('1', '2')
+('Smart TV', 'TV')
+Add a TV app
+
+
+
+
+
+
+Settings14
+('1',)
+('Smart Fridge', 'Fridge')
+change settings
+
+
+
+
+
+
+Order online
+('3', '2', '1')
+('Smart Fridge', 'Fridge')
+View items in shopping cart
+
+
+('Smart TV', 'TV')
+View items in shopping cart
+
+
+('Amazon Echo', 'echo')
+View items in shopping cart
+
+
+
+
+('1', '2')
+('Smart Fridge', 'Fridge')
+Order online
+
+
+('Smart TV', 'TV')
+Order online
+
+
+('Amazon Echo', 'echo')
+Order online
+
+
+
+
+('5', '1', '2', '3')
+('Smart Fridge', 'Fridge')
+Add items to shopping cart
+
+
+('Smart TV', 'TV')
+Add items to shopping cart
+
+
+('Amazon Echo', 'echo')
+Add items to shopping cart
+
+
+
+
+
+
+Watch a movie
+('1', '2')
+('Smart plug', 'P1')
+Power ON/OFF
+add/modify a scene/ambiance
+Start schedule
+
+
+('Smart TV', 'TV')
+Cast another device
+Watch normal content
+Use a TV app
+Watch sensitive content
+
+
+('Smart Light', 'L1-2')
+Start schedule/ambiance
+select background color
+add/modify a scene/ambiance
+
+
+('Smart Fridge', 'Fridge')
+View Inside fridge
+View recipes
+
+
+('Thermostat', 'Thermo1')
+Start schedule
+add/modify a scene/ambiance
+
+
+('Smart Oven', 'Oven')
+View recipes
+
+
+
+
+
+
+Settings18
+('1',)
+('Smart Oven', 'Oven')
+change settings
+
+
+
+
+
+
+Throw a party
+('1',)
+('Contact sensors', 'Motion sensors only')
+Power ON/OFF
+
+
+('Smart security system', 'SSS')
+Dis/arm system
+
+
+('Smart Light', 'L1-6')
+add/modify a scene/ambiance
+
+
+('Thermostat', 'Thermo1-5')
+add/modify a scene/ambiance
+
+
+
+
+('1', '2')
+('Smart Fridge', 'Fridge')
+View Inside fridge
+View recipies
+stream music
+
+
+('Contact and flame sensors', 'Motion sensors only')
+Adjust sensitivity
+
+
+('Smart TV', 'TV')
+Cast another device
+
+
+('Amazon Echo', 'Echo')
+stream music
+
+
+('Thermostat', 'Thermo1-2,4-5')
+Start schedule
+
+
+('Smart security system', 'SSS')
+Un/lock system
+Monitor current parameters
+View past footage
+
+
+('Smart Light', 'L1-6')
+Start schedule/ambiance
+select background color
+
+
+('Smart Lock', 'Lock')
+Un/lock smart lock
+
+
+('Smart Oven', 'Oven')
+View recipes
+Set/modify alarms
+
+
+
+
+
+
+Heat Food
+('1', '2', '3', '4', '6')
+('Smart Fridge', 'Fridge')
+View recipies
+
+
+('Smart Oven', 'Oven')
+View recipes
+
+
+
+
+('1', '2', '3', '4', '5')
+('Smart Fridge', 'Fridge')
+View Inside fridge
+
+
+
+
+
+
+View history7
+('1', '2', '3')
+('Smart Fridge', 'Fridge')
+View usage history
+
+
+
+
+
+
+View history3
+('1', '2', '3')
+('Smart shower', 'S')
+View usage history
+
+
+
+
+
+
+Watch TV
+('5', '6', '1', '2', '3', '4')
+('Smart TV', 'TV')
+Watch normal content
+Use a TV app
+
+
+
+
+('1', '2', '3', '4')
+('Smart TV', 'TV')
+Watch sensitive content
+
+
+
+
+
+
+Settings8
+('1', '2')
+('Smart security system', 'SSS')
+View preferences
+
+
+
+
+
+
