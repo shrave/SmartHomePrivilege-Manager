@@ -34,7 +34,7 @@ for i in device_instances:
 
 #Taking input of user details from an input file with .sce extension.
 
-with open('Dataset/example1.sce', 'r') as f:
+with open('example1.sce', 'r') as f:
 	file_lines = f.readlines()
 
 number_users = int(file_lines[1])
