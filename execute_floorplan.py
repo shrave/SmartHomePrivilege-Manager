@@ -81,6 +81,7 @@ for k in list_device_objects:
 			if k.name == m[0]:
 				k.store_privileges(j[m],'user')
 				k.user_group_assignment()
+print(list_device_objects)
 
 #Proper assignment of user groups done to each privilege here based on tags.
 
