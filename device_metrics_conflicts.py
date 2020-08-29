@@ -11,16 +11,17 @@ def save_object(obj, filename):
 with open('devices.pkl', 'rb') as input:
     device_instances = pickle.load(input)
 
-df = pd.read_excel('Device_security.xlsx')
+df = pd.read_excel('Device_security.xlsx', skip_blank_lines=False)
 # print(df.to_dict(orient='dict'))
-df = df.dropna(	)
+print(df)
+# df = df.dropna()
 safety_dict = {}
 for j,k,l in zip(df['Device Name'], df['Functionality'], df['Critical Tags']):
 	if j not in safety_dict.keys():
 		safety_dict[j] = {}
 	if k not in safety_dict[j].keys():
 		safety_dict[j][k] = l
-# print(safety_dict)
+print(safety_dict)
 save_object(safety_dict, 'safety.pkl')
 for k in safety_dict.keys():
 	print(k)
