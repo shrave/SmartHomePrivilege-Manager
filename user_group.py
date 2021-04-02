@@ -23,9 +23,9 @@ class user_group(object):
 			if self.code == 6:
 				self.group_name = 'Guest Child'
 				self.type = '0000'
-		else:
-			self.group_name = 'System User'
-			self.code = 7
+		# else:
+		# 	self.group_name = 'System User'
+		# 	self.code = 7
 		self.automated = int(automated)		
 
 	#Function to get all the privileges of the device pertaining to the user-group.

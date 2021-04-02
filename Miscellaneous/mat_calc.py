@@ -32,7 +32,7 @@ for k in int_list.keys():
 	print(k)
 	a = int_list[k][0][0]+int_list[k][1][0]+int_list[k][0][1]
 	b = int_list[k][2][2]+int_list[k][1][2]+int_list[k][2][1]
-	print(a,b)
+	# print(a,b)
 	if(a>b):
 		print('high risk')
 	elif(a<b):

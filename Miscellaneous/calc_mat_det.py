@@ -27,9 +27,9 @@ k = f.read()
 
 # print(k.split('\n\n\n'))
 for i in k.split('\n\n\n'):
-	print(i)
+	# print(i)
 	for j in (i.split('\n')):
-		# print(j)
+		print(j)
 		for l in j.split('<'):
 			if l=='set()':
 				print(0, end =" ")

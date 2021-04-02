@@ -81,9 +81,31 @@ for k in list_device_objects:
 			if k.name == m[0]:
 				k.store_privileges(j[m],'user')
 				k.user_group_assignment()
-print(list_device_objects)
-
+# print(list_device_objects)
+# for device in list_device_objects:
+# 	print(device.name)
+# 	print(device.user_groups)
+# 	print('///////////////////')
 #Proper assignment of user groups done to each privilege here based on tags.
+
+#Environments are spacio-temporal constructs.
+from datetime import date, datetime
+
+Y = 2000 # dummy leap year to allow input X-02-29 (leap day)
+environment_ranges= [('winter', (date(Y,  1,  1),  date(Y,  3, 20))),
+           ('spring', (date(Y,  3, 21),  date(Y,  6, 20))),
+           ('summer', (date(Y,  6, 21),  date(Y,  9, 22))),
+           ('autumn', (date(Y,  9, 23),  date(Y, 12, 20))),
+           ('winter', (date(Y, 12, 21),  date(Y, 12, 31)))]
+
+def get_environments(now):
+    if isinstance(now, datetime):
+        now = now.date()
+    now = now.replace(year=Y)
+    return next(season for season, (start, end) in environment_ranges
+                if start <= now <= end)
+
+# print(get_environments(date.today()))
 
 #List of all rooms/locations in the house - taken as input from the user ->locations.
 locations = ['Outside', 'Living Room', 'Parents Room', 'Kids Room', 'Kitchen', 'Guest Room']
@@ -121,5 +143,12 @@ for m in list_device_objects:
 					list_current_devices.append(devices(m, k , l ))	
 
 #Pickling the current devices based on floorplan to use in the future.
+for device in list_current_devices:
+	print(device.name)
+	print(device.label)
+	print(device.location)
+	print(device.privileges)
+	print(device.user_groups)
+	print('**************')
 save_object(list_current_devices, 'devices_floorplan.pkl')
 save_object(list_device_objects, 'devices.pkl')
