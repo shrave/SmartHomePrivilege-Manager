@@ -1,5 +1,6 @@
 from device import device
 from devices import devices
+from user_group import user_group
 from user import user
 import pandas as pd
 import pickle

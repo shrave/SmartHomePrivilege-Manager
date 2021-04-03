@@ -1,3 +1,4 @@
+import pickle
 #Master device class for a device. Not the instances of different devices.
 class device(object):
 	def __init__(self, name, acronym, privileges):
@@ -43,9 +44,7 @@ class device(object):
 				groups = [1,2,3,4,5,6]
 			user_groups[k] = groups
 			groups = []
-		self.user_groups = user_groups				
-
-	import pickle
+		self.user_groups = user_groups
 
 	def device_risk(self):
 
@@ -60,8 +59,11 @@ class device(object):
 		P1_list = []
 		P2_list = []
 		P3_list = []
+		# print(safety_dict[k])
 		for j in safety_dict[k].keys():
+			# print(j)
 			K = safety_dict[k][j]
+			# print(K)
 			if '1S' in str(K):
 				S1_list.append(j)
 			if '1P' in str(K):
@@ -75,9 +77,9 @@ class device(object):
 			if '3P' in str(K):
 				P3_list.append(j)
 
-		tag_dict = [set(S1_list),set(S2_list),set(S3_list)]
-		tag_dict = [set(P1_list),set(P2_list),set(P3_list)]
-
+		tag_dict.append([set(S1_list),set(S2_list),set(S3_list)])
+		tag_dict.append([set(P1_list),set(P2_list),set(P3_list)])
+		# print(tag_dict)
 		risk_matrix = []
 
 		for j in range(len(tag_dict[0])):
@@ -86,18 +88,27 @@ class device(object):
 
 				sec_levels.append(len(tag_dict[0][j].union(tag_dict[1][l])))
 			risk_matrix.append(sec_levels)
-
+		# print(risk_matrix)
 		a = risk_matrix[0][0]+risk_matrix[1][0]+risk_matrix[0][1]
 		b = risk_matrix[2][2]+risk_matrix[1][2]+risk_matrix[2][1]
 
 		if(a>b):
 			print('high risk')
-			self.risk = 'high risk'
+			self.risk = 'High risk'
 		elif(a<b):
 			print('low risk')
-			self.risk = 'low risk'
+			self.risk = 'Low risk'
 		else:
 			print('moderate risk')
-			self.risk = 'moderate risk'
+			self.risk = 'Moderate risk'
+
+	def privileges_by_user_group(self,group_code):
+		d = self.user_groups
+		selected_privileges = []
+		for k in d.keys():
+			if group_code in d[k]:
+				selected_privileges.append(k)
+		self.role_privileges = selected_privileges
+		# return selected_privileges
 				
 
