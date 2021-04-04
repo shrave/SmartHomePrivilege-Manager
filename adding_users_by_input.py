@@ -2,8 +2,8 @@ import pickle
 from user import user
 
 #Retrieving previous device instances based on current floorplan.
-with open('devices_floorplan.pkl', 'rb') as input:
-    device_instances = pickle.load(input)
+with open('devices_floorplan.pkl', 'rb') as file:
+    device_instances = pickle.load(file)
 
 #36 device instances.
 device_directory = {} #directory of devices for indexing purposes.
@@ -12,10 +12,10 @@ for i in device_instances:
 
 #Code for input.
 user_list = []
-print("Enter the number of users")
-number_users = input()
-for j in range(len(number_users)):
-	name = raw_input("Enter Name of User")
+# print("Enter the number of users")
+number_users = int(input("Enter the number of users"))
+for j in range(number_users):
+	name = str(input("Enter Name of User"))
 	user_list.append(user(name))
 
 for j in user_list:
@@ -24,7 +24,7 @@ for j in user_list:
 	print("Device privileges for user " + str(j.Name))
 	for k in device_instances:
 		print("Enter the user group for the device in " + k.location+ " having label " + k.label )
-		group = raw_input()
+		group = int(input())
 		list_devices.append(int(group))
 		k.privileges_by_user_group(group)
 		user_device_set.append(k)

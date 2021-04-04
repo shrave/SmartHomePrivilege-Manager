@@ -90,21 +90,41 @@ for k in list_device_objects:
 #Proper assignment of user groups done to each privilege here based on tags.
 
 #Environments are spacio-temporal constructs.
-from datetime import date, datetime
+from datetime import date, datetime, time
 
 Y = 2000 # dummy leap year to allow input X-02-29 (leap day)
-environment_ranges= [('winter', (date(Y,  1,  1),  date(Y,  3, 20))),
-           ('spring', (date(Y,  3, 21),  date(Y,  6, 20))),
-           ('summer', (date(Y,  6, 21),  date(Y,  9, 22))),
-           ('autumn', (date(Y,  9, 23),  date(Y, 12, 20))),
-           ('winter', (date(Y, 12, 21),  date(Y, 12, 31)))]
+environment_ranges= {'winter': (date(Y,  1,  1),  date(Y,  3, 20)),
+           'spring':(date(Y,  3, 21),  date(Y,  6, 20)),
+           'summer': (date(Y,  6, 21),  date(Y,  9, 22)),
+           'autumn': (date(Y,  9, 23),  date(Y, 12, 20)),
+           'winter': (date(Y, 12, 21),  date(Y, 12, 31)),
+           'morning':(time(05,0,0), time(11,59,59)), 
+           'afternoon':(time(12,0,0), time(16,59,59)),
+           'evening':(time(17,0,0), time(20,59,59)), 
+           'night (PM)':(time(21,0,0), time(23,59,59)), 
+           'night (AM)':(time(0,0,0), time(04,59,59))
+           }
 
-def get_environments(now):
-    if isinstance(now, datetime):
-        now = now.date()
-    now = now.replace(year=Y)
-    return next(season for season, (start, end) in environment_ranges
-                if start <= now <= end)
+times_to_check = [
+'2015-02-03 13:48:41',
+'2015-02-06 19:42:33',
+'2015-02-07 08:22:11', 
+'2015-02-11 02:23:11',
+'2015-02-14 22:45:41'
+]
+
+# for check in times_to_check:
+#     check_time = datetime.strptime(check, "%Y-%m-%d %H:%M:%S").time()
+#     for k, v in environment_ranges.iteritems():
+#         if v[0] <= check_time <= v[1]:
+#             print check, k
+
+# def get_environments(now):
+#     if isinstance(now, datetime):
+#         now = now.date()
+#     now = now.replace(year=Y)
+#     return next(season for season, (start, end) in environment_ranges
+#                 if start <= now <= end)
 
 # print(get_environments(date.today()))
 

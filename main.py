@@ -8,8 +8,8 @@ def divide_chunks(l, n):
         yield l[i:i + n] 
 
 #Retrieving previous device instances based on current floorplan.
-with open('devices_floorplan.pkl', 'rb') as input:
-    device_instances = pickle.load(input)
+with open('devices_floorplan.pkl', 'rb') as file:
+    device_instances = pickle.load(file)
 
 #36 device instances.
 device_directory = {} #directory of devices for indexing purposes.
@@ -40,40 +40,64 @@ with open('example1.sce', 'r') as f:
 number_users = int(file_lines[1])
 # Number of users in the input file.
 file_lines = file_lines[2:]
-user_list = file_lines[:number_users]
+user_list = [] #List of user instances.
+user_names = file_lines[:number_users]
+for name in user_names:
+	user_list.append(user(name.strip('\n')))
 # User names in the input file.
 file_lines = file_lines[number_users:]
 usermapping = {} # A dictionary of users as key and list of device instances as values.
 device_groups = list(divide_chunks(file_lines, number_users+1))
+# print(len(device_groups))
 # Device groups are chunks of the device groups for each device.
+user_group_dictionary = {}
+for name in user_names:
+	user_group_dictionary[name.strip('\n')] = []
+devices = [] #Devices in the config.
 for k in device_groups:
+	#Mapping devices in the data file to device config in previous step.
 	device_name = str(k[0][:-1])
+	# print(device_name)
+	devices.append(device_directory[device_name])
 	i = 0
-	for l in k[1:]:
+	for l,u in zip(k[1:], user_names):
 		m = int(float(l))
-		if i not in usermapping.keys():
-			r = user_group(m,0, device_directory[device_name])
-			r.privilege_selection()
-			usermapping[i] = [r]
-		else:
-			r = user_group(m,0, device_directory[device_name])
-			r.privilege_selection()
-			usermapping[i].append(r)
-		i += 1
-users = []  # A list of user instances having all the device info and capabilities.
+		# print(m)
+		user_group_dictionary[u.strip('\n')].append(m)
 
-for k in usermapping.keys():
-	u = user(str(user_list[k]))
-	u.set_devices_user_groups(usermapping[k])
-	u.capable_privileges() 
-	users.append(u)
+#Giving the device instances to users and selecting the privileges group wise.
+# print(user_group_dictionary)
+# print(devices)
+# print(user_list)
 
-for k in users:
-	print(k.Name)
-	for l in k.user_privileges:
-		for m in l.keys():
-			print(m)
-			print(l[m])
+for j in user_list:
+	list_devices = user_group_dictionary[j.Name] #This is a temp list having devices for a particular user with groups.
+	user_device_set = []
+	# print("Device privileges for user " + str(j.Name))
+	for k,group in zip(devices,user_group_dictionary[j.Name]):
+		# print("Enter the user group for the device in " + k.location+ " having label " + k.label )
+		# group = int(input())
+		# list_devices.append(int(group))
+		# print(group)
+		k.privileges_by_user_group(int(group))
+		# print(k.role_privileges)
+		user_device_set.append(k)
+	j.set_devices_user_groups(user_group_dictionary[j.Name])
+	j.store_devices(user_device_set)
+	j.set_user_privilege_set()
+
+for u in user_list:
+	print(u.Name)
+	print(u.get_user_privilege_set())
+
+#Creation of restrictions for each user. Here every attribute is not allowed.
+#Selected users and their restrictions.
+restrictions_by_users = {'User 1':{'locations':['Outside'], 'environments':['summer', 'morning'], 'devices':[]}}
+  
+#Apply restrictions.
+for u in user_list:
+	if u.Name in restrictions_by_users.keys():
+		u.apply_restrictions(restrictions_by_users[u.Name])
 
 #Create tasks.
 #Assign privileges to each task.
