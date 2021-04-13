@@ -86,19 +86,36 @@ for j in user_list:
 	j.store_devices(user_device_set)
 	j.set_user_privilege_set()
 
+new_users = []
 for u in user_list:
-	print(u.Name)
-	print(u.get_user_privilege_set())
+	# print(u.Name)
+	# print(u.get_user_privilege_set())
+	new_users.append(u)
 
+user_list = new_users
 #Creation of restrictions for each user. Here every attribute is not allowed.
 #Selected users and their restrictions.
 restrictions_by_users = {'User 1':{'locations':['Outside'], 'environments':['summer', 'morning'], 'devices':[]}}
   
+new_users = []
 #Apply restrictions.
+print(len(user_list))
 for u in user_list:
 	if u.Name in restrictions_by_users.keys():
 		u.apply_restrictions(restrictions_by_users[u.Name])
+		print(u.Name)
+		print(u.updated_privileges)
+		for device in u.updated_privileges:
+			print(device.label)
+			print(device.role_privileges)
+		# print("***********")
+		new_users.append(u)
+	else:
+		temp_dict = {'locations':[], 'environments':[], 'devices':[]}
+		u.apply_restrictions(temp_dict)
+		new_users.append(u)
 
+user_list = new_users
 #Create tasks.
 #Assign privileges to each task.
 #Check exclusivity of tasks.

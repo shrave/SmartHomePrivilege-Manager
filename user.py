@@ -40,14 +40,17 @@ class user(object):
 		#Removing not needed locations.
 		for location in restrictions['locations']:
 			for device in self.device_list:
-			print(device.location)
-			if device.location == location:
-				del restricted_privileges[device.label]
+				# print(device.name)
+				# print(device.label)
+				# print(device.location)
+				if device.location == location:
+					restricted_privileges.remove(device)
 		#Removing risky/restricted devices.
 		for restrict_device in restrictions['devices']:
 			for device in self.device_list:
 				if device.label == restrict_device:
-					del restricted_privileges[device.label]
+					# del restricted_privileges[device.label]
+					restricted_privileges.remove(device)
 		#Blocking restricted environments. Storing them, checking them at runtime if not in this datetime.
 		for device in restricted_privileges:
 			device.restricted_environment = restrictions['environments']

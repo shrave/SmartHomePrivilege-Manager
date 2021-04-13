@@ -38,16 +38,54 @@ for j,k,l,m,n in zip(tasks, users, device_name,labels,privileges):
 		task_dict[j][k][(l,m)].append(n)
 
 # print(task_dict)
+device_acronym_list = []
 for k in task_dict.keys():
 	# print(k)
+	# print(task_dict[k])
 	for j in task_dict[k].keys():
-		print(j)
+		# print(j)
+		# print(task_dict[k][j])
 		for l in task_dict[k][j].keys():
-			print(l)
-			for i in task_dict[k][j][l]:
-				# print(i)
-				print(safety_dict[l[0]][i])
+			# print(l)
+			device_acronym_list.append(l)
+			# print(task_dict[k][j][l])
+			# for i in task_dict[k][j][l]:
+			# 	print(i)
+	# 			print(safety_dict[l[0]][i])
 			# print('\n')
 		# print('\n')
 	# print('\n')
+# print(task_dict)
+# print(device_acronym_list)
+with open('../device_label.pkl', 'rb') as input:
+	device_master_list = pickle.load(input)
+with open('../devices_floorplan.pkl', 'rb') as input:
+	device_list = pickle.load(input)
+# print(device_master_list)
+device_master_list['Motion sensors only'] = ['MF1','MF2','MF5','MF7','MF9','MF10']
+device_master_list['L1-6'] = device_master_list['Smart Light']
+device_master_list['Thermo1-2,4-5'] = device_master_list['Thermostat'].remove('Thermo3')
+device_master_list['L1-2'] = ['L1', 'L2']
+device_master_list['MF'] = device_master_list['Contact and flame sensors']
+device_master_list['S'] = device_master_list['Smart shower']
+device_master_list['P'] = device_master_list['Smart Plug/Socket']
+device_master_list['Light'] = device_master_list['Smart Light']
+device_master_list['ALL'] = device_master_list['Smart Plug/Socket']
+device_master_list['Thermo1-5'] = device_master_list['Thermostat']
+device_master_list['echo'] = ['Echo']
+for tup in device_acronym_list:
+	print('**********')
+	# print(tup)
+	# print(device_master_list[tup[0]])
+	if tup[1] not in device_master_list[tup[0]]:
+		# print(tup)
+		# print(device_master_list[tup[0]])
+		if tup[1] not in device_master_list:
+			print(tup)
+			print(device_master_list[tup[0]])
+		# if ('In their device owned rooms only' or 'respective')== tup[1]:
+		# 	for device in device_list:
+		# 		if task.location == device.location:
+		# 			if device.name == tup[0]:
+		# 				print(device)
 

@@ -1,0 +1,152 @@
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+('Amazon Echo', 'echo')
+['Echo']
+**********
+**********
+('Amazon Echo', 'echo')
+['Echo']
+**********
+**********
+**********
+('Amazon Echo', 'echo')
+['Echo']
+**********
+('Contact and flame sensors', 'ALL')
+['MF1', 'MF2', 'MF3', 'MF4', 'MF5', 'MF8', 'MF9', 'MF10', 'MF11', 'MF6', 'MF7']
+**********
+('Contact and flame sensors', 'In their device owned rooms only')
+['MF1', 'MF2', 'MF3', 'MF4', 'MF5', 'MF8', 'MF9', 'MF10', 'MF11', 'MF6', 'MF7']
+**********
+('Thermostat', 'Thermo1-5')
+['Thermo1', 'Thermo2', 'Thermo4', 'Thermo5', 'Thermo3']
+**********
+('Smart Light', 'L1-6')
+['L1', 'L2', 'L4', 'L5', 'L6', 'L3']
+**********
+('Smart Plug/Socket', 'ALL')
+['P1', 'P3', 'P4', 'P5', 'P2']
+**********
+('Thermostat', 'ALL')
+['Thermo1', 'Thermo2', 'Thermo4', 'Thermo5', 'Thermo3']
+**********
+**********
+**********
+('Thermostat', 'Thermo1-5')
+['Thermo1', 'Thermo2', 'Thermo4', 'Thermo5', 'Thermo3']
+**********
+('Smart Light', 'respective')
+['L1', 'L2', 'L4', 'L5', 'L6', 'L3']
+**********
+('Thermostat', 'Thermo1-5')
+['Thermo1', 'Thermo2', 'Thermo4', 'Thermo5', 'Thermo3']
+**********
+**********
+**********
+**********
+('Smart Light', 'L1-6')
+['L1', 'L2', 'L4', 'L5', 'L6', 'L3']
+**********
+('Thermostat', 'Thermo1-5')
+['Thermo1', 'Thermo2', 'Thermo4', 'Thermo5', 'Thermo3']
+**********
+**********
+**********
+**********
+('Smart Light', 'L1-6')
+['L1', 'L2', 'L4', 'L5', 'L6', 'L3']
+**********
+('Thermostat', 'Thermo1-5')
+['Thermo1', 'Thermo2', 'Thermo4', 'Thermo5', 'Thermo3']
+**********
+('Smart shower', 'respective')
+['S1', 'S2', 'S3']
+**********
+**********
+('Smart shower', 'S')
+['S1', 'S2', 'S3']
+**********
+**********
+**********
+**********
+**********
+('Smart shower', 'S')
+['S1', 'S2', 'S3']
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+('Thermostat', 'Thermo1-5')
+['Thermo1', 'Thermo2', 'Thermo4', 'Thermo5', 'Thermo3']
+**********
+('Smart Light', 'Light')
+['L1', 'L2', 'L4', 'L5', 'L6', 'L3']
+**********
+**********
+**********
+('Smart Plug/Socket', 'P')
+['P1', 'P3', 'P4', 'P5', 'P2']
+**********
+('Contact and flame sensors', 'MF')
+['MF1', 'MF2', 'MF3', 'MF4', 'MF5', 'MF8', 'MF9', 'MF10', 'MF11', 'MF6', 'MF7']
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+('Smart shower', 'S')
+['S1', 'S2', 'S3']
+**********
+**********
+**********
+('Contact and flame sensors', 'MF')
+['MF1', 'MF2', 'MF3', 'MF4', 'MF5', 'MF8', 'MF9', 'MF10', 'MF11', 'MF6', 'MF7']
+**********
+**********
+('Smart Light', 'L1-2')
+['L1', 'L2', 'L4', 'L5', 'L6', 'L3']
+**********
+**********
+**********
+**********
+**********
+**********
+('Smart Light', 'L1-6')
+['L1', 'L2', 'L4', 'L5', 'L6', 'L3']
+**********
+('Thermostat', 'Thermo1-2,4-5')
+['Thermo1', 'Thermo2', 'Thermo4', 'Thermo5', 'Thermo3']
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+('Contact and flame sensors', 'Motion sensors only')
+['MF1', 'MF2', 'MF3', 'MF4', 'MF5', 'MF8', 'MF9', 'MF10', 'MF11', 'MF6', 'MF7']
+**********
+('Smart Light', 'L1-6')
+['L1', 'L2', 'L4', 'L5', 'L6', 'L3']
+**********
+('Thermostat', 'Thermo1-5')
+['Thermo1', 'Thermo2', 'Thermo4', 'Thermo5', 'Thermo3']
+**********
+**********
+('Contact and flame sensors', 'Motion sensors only')
+['MF1', 'MF2', 'MF3', 'MF4', 'MF5', 'MF8', 'MF9', 'MF10', 'MF11', 'MF6', 'MF7']

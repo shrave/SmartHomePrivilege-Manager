@@ -98,11 +98,11 @@ environment_ranges= {'winter': (date(Y,  1,  1),  date(Y,  3, 20)),
            'summer': (date(Y,  6, 21),  date(Y,  9, 22)),
            'autumn': (date(Y,  9, 23),  date(Y, 12, 20)),
            'winter': (date(Y, 12, 21),  date(Y, 12, 31)),
-           'morning':(time(05,0,0), time(11,59,59)), 
+           'morning':(time(5,0,0), time(11,59,59)), 
            'afternoon':(time(12,0,0), time(16,59,59)),
            'evening':(time(17,0,0), time(20,59,59)), 
            'night (PM)':(time(21,0,0), time(23,59,59)), 
-           'night (AM)':(time(0,0,0), time(04,59,59))
+           'night (AM)':(time(0,0,0), time(4,59,59))
            }
 
 times_to_check = [
@@ -163,14 +163,21 @@ for m in list_device_objects:
 				if ('Thermo' in l) and (m.acronym == 'Thermo'):
 					list_current_devices.append(devices(m, k , l ))	
 
+device_label_master_list = {}
 #Pickling the current devices based on floorplan to use in the future.
 for device in list_current_devices:
 	print(device.name)
 	print(device.label)
+	if device.name not in device_label_master_list.keys():
+		device_label_master_list[device.name]= [device.label]
+	else:
+		device_label_master_list[device.name].append((device.label))
 	print(device.location)
 	print(device.privileges)
 	print(device.user_groups)
 	print(device.risk)
 	print('**************')
+print(device_label_master_list)
 save_object(list_current_devices, 'devices_floorplan.pkl')
 save_object(list_device_objects, 'devices.pkl')
+save_object(device_label_master_list,'device_label.pkl')

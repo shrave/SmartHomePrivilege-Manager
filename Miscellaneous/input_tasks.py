@@ -34,11 +34,12 @@ for k in blocks:
 		else:
 			tasks[i[0]][tuple(i[3].split(','))][(i[2],tuple(i[4].split(',')))].append(i[1])
 
-for k in tasks['Throw a party']:
-	print(k)
-	for i in tasks['Throw a party'][k]:
-		print((i, tasks['Throw a party'][k][i]))
-	print('\n')
+# for k in tasks['Throw a party']:
+# 	print(k)
+# 	for i in tasks['Throw a party'][k]:
+# 		print((i, tasks['Throw a party'][k][i]))
+# 	print('\n')
+print(tasks)
 #Task dictionary has the following format:
 #{Task Name: {users allowed: {(Device name, label): [Privileges list]}}}
 #ALL consists of all the labels-> meaning all devices.
