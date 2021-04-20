@@ -7,6 +7,10 @@ def divide_chunks(l, n):
     for i in range(0, len(l), n):  
         yield l[i:i + n] 
 
+def save_object(obj, filename):
+    with open(filename, 'wb') as output:  # Overwrites any existing file.
+        pickle.dump(obj, output, pickle.HIGHEST_PROTOCOL)
+
 #Retrieving previous device instances based on current floorplan.
 with open('devices_floorplan.pkl', 'rb') as file:
     device_instances = pickle.load(file)
@@ -88,7 +92,7 @@ for j in user_list:
 
 new_users = []
 for u in user_list:
-	# print(u.Name)
+	print(u.Name)
 	# print(u.get_user_privilege_set())
 	new_users.append(u)
 
@@ -116,6 +120,7 @@ for u in user_list:
 		new_users.append(u)
 
 user_list = new_users
+save_object(user_list, 'user_list.pkl')
 #Create tasks.
 #Assign privileges to each task.
 #Check exclusivity of tasks.

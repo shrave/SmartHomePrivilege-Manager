@@ -1,12 +1,15 @@
 import pandas as pd
 import pickle
 from task import task
+def save_object(obj, filename):
+	with open(filename, 'wb') as output:  # Overwrites any existing file.
+		pickle.dump(obj, output, pickle.HIGHEST_PROTOCOL)
 #Retrieving previous device instances based on current floorplan.
-with open('../safety.pkl', 'rb') as input:
+with open('safety.pkl', 'rb') as input:
     safety_dict = pickle.load(input)
 
 print(safety_dict)
-df = pd.read_excel('Tasks.xlsx')
+df = pd.read_excel('Miscellaneous/Tasks.xlsx')
 
 df = df.dropna(	)
 task_dict = {}
@@ -58,9 +61,9 @@ for k in task_dict.keys():
 	# print('\n')
 # print(task_dict)
 # print(task_acronym_list)
-with open('../device_label.pkl', 'rb') as input:
+with open('device_label.pkl', 'rb') as input:
 	device_master_list = pickle.load(input)
-with open('../devices_floorplan.pkl', 'rb') as input:
+with open('devices_floorplan.pkl', 'rb') as input:
 	device_list = pickle.load(input)
 # print(device_master_list)
 device_master_list['Motion sensors only'] = ['MF1','MF2','MF5','MF7','MF9','MF10']
@@ -102,7 +105,7 @@ def retrieve_object(label):
 		# 		if task.location == device.location:
 		# 			if device.name == tup[0]:
 		# 				print(device)
-task_object_lists = {}
+task_object_lists = []
 for k in task_dict.keys():
 	print(k)
 	# print(task_dict[k])
@@ -118,7 +121,8 @@ for k in task_dict.keys():
 					# device_objects.append(retrieve_object(label))
 					privis = retrieve_object(label)
 					# print(privis)
-					device_privileges[privis] = []
+					if privis not in device_privileges:
+						device_privileges[privis] = []
 					# print(privis.privileges)
 					for i in task_dict[k][j][l]:
 						# print(i)
@@ -137,15 +141,36 @@ for k in task_dict.keys():
 				for label in device_master_list[l[0]]:
 					# device_objects.append(retrieve_object(label))
 					privis = retrieve_object(label)
-					# print(privis)
-					device_privileges[privis] = []
+					if privis not in device_privileges:
+						device_privileges[privis] = []
 					# print(privis.privileges)
 					for i in task_dict[k][j][l]:
 						# print(i)
 						if i in privis.privileges:
 							device_privileges[privis].append(i)
-		print(device_privileges)
+		# print(device_privileges)
 		users_devices[j] = device_privileges
-	task_object_lists.append(task(k,users_devices))
+	# print(users_devices)
+	only_privileges = {}
+	for jrm in users_devices:
+		for key in users_devices[jrm]:
+			if key not in only_privileges:
+				only_privileges[key] = users_devices[jrm][key]
+			else:
+				only_privileges[key].extend(users_devices[jrm][key])
+	task_privileges_dict = {}
+	for jj in only_privileges:
+		# print(len(only_privileges[jj]))
+		task_privileges_dict[jj] = list(set(only_privileges[jj]))
+		# print(len(task_privileges_dict[jj]))
+		# print('***')
+	print(task_privileges_dict)
+	# print(only_privileges)
+	task_object_lists.append(task(k,task_privileges_dict))
 
-print(task_object_lists)
+# print(task_object_lists)
+for ta in task_object_lists:
+	print(dir(ta))
+	print(ta.name)
+	# print(task.privileges_allowed)
+# save_object(task_object_lists, 'task_objects.pkl')
