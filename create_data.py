@@ -20,7 +20,7 @@ iterate_dict= { 2:400, 3:3500, 4:30000, 5:200000, 6:1650000 }
 for N in range(2,7):
 	#Creation of the random values for the dataset.
 	for j in range(iterate_dict[N]):
-		with open('Dataset/example'+ str(N)+ str(j) +'.sce', 'w') as f:
+		with open('Dataset/example'+ str(N)+'_'+ str(j) +'.sce', 'w') as f:
 			f.write('#Format of user input for scenario setup.\n')
 			f.write(str(N)+'\n')
 			for k in range(N):
