@@ -3,13 +3,14 @@
 #create task.
 #least privilege, location, timing of device check.
 class task(object):
-	def __init__(self, name, privileges_allowed):
+	def __init__(self, name, privileges_allowed, time):
 		self.name = name
 		self.privileges_allowed = privileges_allowed
-		#users, devices and privileges in it.
-	def create_task(self, location, time):
-		self.location = location
 		self.time = time
+		#users, devices and privileges in it.
+		#Generating random numbers for testing. But need to properly specify.
+	def add_details(self, location, time):
+		self.location = location
 		#self.requirement_tags = requirement_tags
 		#return requirement_tags
 		#check privilege tags and map it with requirement tags. 

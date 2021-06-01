@@ -1,6 +1,8 @@
 import pandas as pd
 import pickle
 from task import task
+from random import randint
+
 def save_object(obj, filename):
 	with open(filename, 'wb') as output:  # Overwrites any existing file.
 		pickle.dump(obj, output, pickle.HIGHEST_PROTOCOL)
@@ -166,11 +168,11 @@ for k in task_dict.keys():
 		# print('***')
 	print(task_privileges_dict)
 	# print(only_privileges)
-	task_object_lists.append(task(k,task_privileges_dict))
+	task_object_lists.append(task(k,task_privileges_dict, randint(0,10)))
 
 # print(task_object_lists)
 for ta in task_object_lists:
 	print(dir(ta))
 	print(ta.name)
 	# print(task.privileges_allowed)
-# save_object(task_object_lists, 'task_objects.pkl')
+save_object(task_object_lists, 'task_objects.pkl')
