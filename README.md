@@ -21,8 +21,10 @@ Example Scenario:
 
 To Setup the smart home, run the follwing files:
 
-_execute_floorplan.py_ -> Imports the smart home devices, their instacnces, privileges and locations.
+_execute_floorplan.py_ -> Imports the smart home devices, their instances, privileges and locations.
+
 _main.py_ -> Imports the users of the smart home alongwith the restrictions set on them based on location, environment, device risk and time.
+
 _setup_tasks.py_ -> Imports the tasks created by the administrator in accordance to the devices present in the house.
 
 The execution of these files generates the following four pickled files, which are taken as an input in the task server(that grants permissions to users):
