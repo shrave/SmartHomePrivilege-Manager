@@ -14,3 +14,8 @@ Implementation is based on this paper:
 **Kanchi, Shravya, and Kamalakar Karlapalem. "A Multi Perspective Access Control in a Smart Home." Proceedings of the Eleventh ACM Conference on Data and Application Security and Privacy. 2021.**
 
 Please cite this work, if using this code in your academic research. 
+
+Example Scenario:
+
+![A Kid User Krish requests for Cook Food task](https://github.com/shrave/SmartHomePrivilege-Manager/blob/master/Task-Krish.png)
+
