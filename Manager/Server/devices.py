@@ -15,4 +15,4 @@ class devices(device):
 			label = args[4]
 			self.location = location
 			self.label = label
-		self.restricted_environment = 'None'
+		# self.restricted_environment = 'None'

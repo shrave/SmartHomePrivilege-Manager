@@ -52,8 +52,8 @@ class user(object):
 					# del restricted_privileges[device.label]
 					restricted_privileges.remove(device)
 		#Blocking restricted environments. Storing them, checking them at runtime if not in this datetime.
-		for device in restricted_privileges:
-			device.restricted_environment = restrictions['environments']
+		# for device in restricted_privileges:
+		self.restricted_environment = restrictions['environments']
 		self.updated_privileges = restricted_privileges
 		return restricted_privileges
 

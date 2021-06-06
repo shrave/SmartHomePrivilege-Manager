@@ -20,16 +20,21 @@ class task(object):
 		filtered_privileges = {}
 		u = user
 		for device in u.updated_privileges:
-			print(device.label)
-			print(device.role_privileges)
+			# print(device.label)
+			# print(device.role_privileges)
 			for task_device in self.privileges_allowed:
-				if device == task_device:
+				# print(task_device.label)
+				# print(device.label)
+				if device.label == task_device.label:
+					# print('matched')
 					for privilege in self.privileges_allowed[task_device]:
+						# print(privilege)
 						if privilege in device.role_privileges:
 							if task_device not in filtered_privileges:
-								filtered_privileges[task_device] = [privilege]
+								filtered_privileges[task_device.label] = [privilege]
 							else:
-								filtered_privileges[task_device].append(privilege)
+								filtered_privileges[task_device.label].append(privilege)
+		# print(filtered_privileges)
 		return filtered_privileges
 
 

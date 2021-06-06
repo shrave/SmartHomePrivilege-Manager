@@ -3,13 +3,14 @@
 #create task.
 #least privilege, location, timing of device check.
 class task(object):
-	def __init__(self, name, privileges_allowed):
+	def __init__(self, name, privileges_allowed, time):
 		self.name = name
 		self.privileges_allowed = privileges_allowed
-		#users, devices and privileges in it.
-	def create_task(self, location, time):
-		self.location = location
 		self.time = time
+		#users, devices and privileges in it.
+		#Generating random numbers for testing. But need to properly specify.
+	def add_details(self, location, time):
+		self.location = location
 		#self.requirement_tags = requirement_tags
 		#return requirement_tags
 		#check privilege tags and map it with requirement tags. 
@@ -22,18 +23,14 @@ class task(object):
 			# print(device.label)
 			# print(device.role_privileges)
 			for task_device in self.privileges_allowed:
-				# print(device.label)
 				# print(task_device.label)
-				# print('**********')
+				# print(device.label)
 				if device.label == task_device.label:
-					# print('yes')
-					# print(device.label)
-					# print(task_device.label)
+					# print('matched')
 					for privilege in self.privileges_allowed[task_device]:
-						# print(device.role_privileges)
+						# print(privilege)
 						if privilege in device.role_privileges:
-							# print(privilege)
-							if task_device.label not in filtered_privileges:
+							if task_device not in filtered_privileges:
 								filtered_privileges[task_device.label] = [privilege]
 							else:
 								filtered_privileges[task_device.label].append(privilege)

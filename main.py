@@ -99,7 +99,7 @@ for u in user_list:
 user_list = new_users
 #Creation of restrictions for each user. Here every attribute is not allowed.
 #Selected users and their restrictions.
-restrictions_by_users = {'User 1':{'locations':['Outside'], 'environments':['summer', 'morning'], 'devices':[]}}
+restrictions_by_users = {'User 1':{'locations':['Outside'], 'environments':['summer', 'morning'], 'devices':[]},'User 4':{'locations':['Outside'], 'environments':['summer', 'evening'], 'devices':[]}}
   
 new_users = []
 #Apply restrictions.
@@ -109,6 +109,8 @@ for u in user_list:
 		u.apply_restrictions(restrictions_by_users[u.Name])
 		print(u.Name)
 		print(u.updated_privileges)
+		#Updated privileges has final privileges that the user can use.
+		#Updated privileges has all devices removed except environments.
 		for device in u.updated_privileges:
 			print(device.label)
 			print(device.role_privileges)
