@@ -111,4 +111,11 @@ class device(object):
 		self.role_privileges = selected_privileges
 		# return selected_privileges
 				
+	def get_privileges_by_user_group(self,group_code):
+		d = self.user_groups
+		selected_privileges = []
+		for k in d.keys():
+			if group_code in d[k]:
+				selected_privileges.append(k)
+		return selected_privileges
 

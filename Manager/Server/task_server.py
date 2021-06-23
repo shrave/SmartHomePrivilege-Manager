@@ -168,7 +168,7 @@ def test():
 		conn.commit()
 		return {"System response":"Task not defined by home owner."}
 	
-	#TODO: Get environment restrictions for the user here.
+	#Get environment restrictions for the user here.
 	current_environments = current_time_variables()
 	a = [str(x).lower() for x in current_environments]
 	b = [str(x).lower() for x in user_object.restricted_environment]
@@ -202,4 +202,4 @@ def test():
 	return {"System response":("User has been given privileges of the task for %d seconds." %(time)), "privileges":user_privileges}
 
 if __name__ == '__main__':
-	app.run()
+	app.run(port=5001)
