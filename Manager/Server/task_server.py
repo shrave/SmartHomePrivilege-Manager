@@ -118,6 +118,8 @@ def initialize_resource_status():
 		for privilege in device.privileges:
 			# resource_master_list[(device.label, privilege)] = 'available'
 			resource_master_list[(device.label, privilege)] = len(device.user_groups[privilege])
+			# resource_master_list[(device.label, privilege)] = 2
+			
 			# print('yesssssss')
 			cursor.execute("INSERT INTO Resource_ownership (Owner, Task, Device, Privilege, Timestamp,  Status) VALUES ('System', 'Initial', %s, %s, CURRENT_TIME() , 'Available');",(device.label,privilege))
 			conn.commit()
@@ -181,9 +183,8 @@ def test():
 			conn.commit()
 			return {"System response":"User is restricted to perform task in the current environment.","environment":b}
 
-	#Proper user, time and task. Allowed task.
-	cursor.execute("INSERT INTO API_Request (User, Task, Timestamp, Validity, Status, ip_address, Message, Resources_allowed) VALUES (%s, %s, CURRENT_TIME(), %s, 'Success',  INET_ATON(%s),'User has been given privileges of the task.',%s);",(user_name, task_name, str(time),ip_addr, json.dumps(user_privileges)))
 	#Loop through all resources in each device and commit them.
+	given_privileges = {}
 	for device_label in user_privileges:
 		for privilege in user_privileges[device_label]:
 			# if resource_master_list[(device_label, privilege)] == 'available':
@@ -191,15 +192,23 @@ def test():
 				# print(privilege, device_label)
 				cursor.execute("INSERT INTO Resource_ownership (Owner, Task, Device, Privilege, Timestamp,  Status) VALUES (%s, %s, %s, %s, CURRENT_TIME() , 'Occupied');",(user_name, task_name,device_label,privilege))
 				conn.commit()
+				if device_label not in given_privileges:
+					given_privileges[device_label] = [privilege]
+				else:
+					given_privileges[device_label].append(privilege)
 				# resource_master_list[(device_label, privilege)] = 'occupied'
 				resource_master_list[(device_label, privilege)] -= 1
 			else:
 				print(device_label+ privilege+" is occupied.")
+
+	#Proper user, time and task. Allowed task.
+	cursor.execute("INSERT INTO API_Request (User, Task, Timestamp, Validity, Status, ip_address, Message, Resources_allowed) VALUES (%s, %s, CURRENT_TIME(), %s, 'Success',  INET_ATON(%s),'User has been given privileges of the task.',%s);",(user_name, task_name, str(time),ip_addr, json.dumps(given_privileges)))
+
 	t = threading.Timer(time, commit_job_ends, [user_privileges])
 	t.start()
 	print('User has been given privileges of the task for %d seconds.'% (time))
 	#TO DO: Inform user about the non-available resources not granted.
-	return {"System response":("User has been given privileges of the task for %d seconds." %(time)), "privileges":user_privileges}
+	return {"System response":("User has been given privileges of the task for %d seconds." %(time)), "privileges":given_privileges}
 
 if __name__ == '__main__':
 	app.run(port=5001)

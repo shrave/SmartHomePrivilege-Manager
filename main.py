@@ -4,16 +4,16 @@ from user import user
 
 #Dividing list into chunks of size n.
 def divide_chunks(l, n): 
-    for i in range(0, len(l), n):  
-        yield l[i:i + n] 
+	for i in range(0, len(l), n):  
+		yield l[i:i + n] 
 
 def save_object(obj, filename):
-    with open(filename, 'wb') as output:  # Overwrites any existing file.
-        pickle.dump(obj, output, pickle.HIGHEST_PROTOCOL)
+	with open(filename, 'wb') as output:  # Overwrites any existing file.
+		pickle.dump(obj, output, pickle.HIGHEST_PROTOCOL)
 
 #Retrieving previous device instances based on current floorplan.
 with open('devices_floorplan.pkl', 'rb') as file:
-    device_instances = pickle.load(file)
+	device_instances = pickle.load(file)
 
 #36 device instances.
 device_directory = {} #directory of devices for indexing purposes.
@@ -40,6 +40,17 @@ for i in device_instances:
 
 with open('example.sce', 'r') as f:
 	file_lines = f.readlines()
+
+#Write to a config file.
+with open('example.sce','r') as firstfile, open('policy.config','w') as secondfile:
+	  
+	# read content from first file
+	for line in firstfile:
+			   
+			 # append content to second file
+			 secondfile.write(line)
+	secondfile.write('\n')
+	secondfile.write('--------------------------------\n')
 
 number_users = int(file_lines[1])
 # Number of users in the input file.
@@ -100,7 +111,20 @@ user_list = new_users
 #Creation of restrictions for each user. Here every attribute is not allowed.
 #Selected users and their restrictions.
 restrictions_by_users = {'User 1':{'locations':['Outside'], 'environments':['summer', 'morning'], 'devices':[]},'User 4':{'locations':['Outside'], 'environments':['summer', 'evening'], 'devices':[]}}
-  
+
+#Write restrictions to a config file.
+with open('policy.config', 'a') as f:
+	for user in restrictions_by_users:
+		f.write(user+'\n')
+		f.write('Locations restricted:\n')
+		for k in restrictions_by_users[user]['locations']:
+			f.write(k+'\n')
+		for k in restrictions_by_users[user]['environments']:
+			f.write(k+'\n')
+		for k in restrictions_by_users[user]['devices']:
+			f.write(k+'\n')
+	f.write('--------------------------------\n')
+
 new_users = []
 #Apply restrictions.
 print(len(user_list))
